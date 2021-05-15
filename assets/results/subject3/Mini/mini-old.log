@@ -1,0 +1,40 @@
+0, Client, void main(java.lang.String[])_0, $stack2 = new Client
+1, Client, void main(java.lang.String[])_0, specialinvoke $stack2.<Client: void <init>()>()
+2, Client, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3, Client, void <init>()_0 END, return
+4, Client, void main(java.lang.String[])_0, virtualinvoke $stack2.<Client: void failOnUnknownThrowsOnUnknownFields()>()
+5, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack4 = new com.squareup.moshi.Moshi$Builder
+6, Client, void failOnUnknownThrowsOnUnknownFields()_0, specialinvoke $stack4.<com.squareup.moshi.Moshi$Builder: void <init>()>()
+12, Client, void failOnUnknownThrowsOnUnknownFields()_0, moshi = virtualinvoke $stack4.<com.squareup.moshi.Moshi$Builder: com.squareup.moshi.Moshi build()>()
+149, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack6 = virtualinvoke moshi.<com.squareup.moshi.Moshi: com.squareup.moshi.JsonAdapter adapter(java.lang.Class)>(class "LPizza;")
+156, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.Class)_0, stack3_{156} = Func_3_156({stack6_{149}})
+1308, com.squareup.moshi.ClassJsonAdapter$1, com.squareup.moshi.JsonAdapter create(java.lang.reflect.Type;java.util.Set;com.squareup.moshi.Moshi)_0, stack22_{1308} = Func_5_1308(set())
+1309, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, $stack2 = new com.squareup.moshi.JsonAdapter$2
+1310, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, specialinvoke $stack2.<com.squareup.moshi.JsonAdapter$2: void <init>(com.squareup.moshi.JsonAdapter;com.squareup.moshi.JsonAdapter)>(this; this)
+1317, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0 END, return $stack2
+1398, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.Class)_0 END, stack3_{1398} = Func_7_1398({stack6_{149}, stack3_{156}})
+1399, Client, void failOnUnknownThrowsOnUnknownFields()_0, adapter = virtualinvoke $stack6.<com.squareup.moshi.JsonAdapter: com.squareup.moshi.JsonAdapter failOnUnknown()>()
+1409, Client, void failOnUnknownThrowsOnUnknownFields()_0, virtualinvoke adapter.<com.squareup.moshi.JsonAdapter: java.lang.Object fromJson(java.lang.String)>("{\"diameter\":5;\"crust\":\"thick\";\"extraCheese\":true}")
+1431, com.squareup.moshi.JsonReader, void <init>()_0, this.<com.squareup.moshi.JsonReader: int[] scopes>_{1431} = Func_9_1431(set())
+1433, com.squareup.moshi.JsonReader, void <init>()_0, this.<com.squareup.moshi.JsonReader: java.lang.String[] pathNames>_{1433} = Func_9_1433(set())
+1538, com.squareup.moshi.JsonReader$Token, void <clinit>()_0, <com.squareup.moshi.JsonReaderToken: com.squareup.moshi.JsonReaderToken NAME>_{1538} = Func_9_1538({stack4_{1534}})
+1614, com.squareup.moshi.JsonReader, void pushScope(int)_1, this.<com.squareup.moshi.JsonReader: int stackSize>_{1614} = Func_9_1614({stack2_{1524}, stack8_{1554}})
+2012, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack26 = new com.squareup.moshi.JsonDataException
+2013, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack27 = new java.lang.StringBuilder
+2014, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, specialinvoke $stack27.<java.lang.StringBuilder: void <init>()>()
+2015, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack28 = virtualinvoke $stack27.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Cannot skip unexpected ")
+2016, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack29 = virtualinvoke this.<com.squareup.moshi.JsonUtf8Reader: com.squareup.moshi.JsonReader$Token peek()>()
+2021, com.squareup.moshi.JsonUtf8Reader, com.squareup.moshi.JsonReader$Token peek()_1 END, stack4_{2021} = Func_10_2020({stack29_{2016}, <com.squareup.moshi.JsonReaderToken: com.squareup.moshi.JsonReaderToken NAME>_{1538}})
+2022, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack30 = virtualinvoke $stack28.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>($stack29)
+2023, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" at ")
+2024, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack32 = virtualinvoke this.<com.squareup.moshi.JsonUtf8Reader: java.lang.String getPath()>()
+2063, com.squareup.moshi.JsonReader, java.lang.String getPath()_0 END, stack5_{2063} = Func_11_2062({stack32_{2024}, this.<com.squareup.moshi.JsonReader: int stackSize>_{1614}, this.<com.squareup.moshi.JsonReader: int[] scopes>_{1431}, this.<com.squareup.moshi.JsonReader: java.lang.String[] pathNames>_{1433}})
+2064, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack33 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack32)
+2065, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack34 = virtualinvoke $stack33.<java.lang.StringBuilder: java.lang.String toString()>()
+2066, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, specialinvoke $stack26.<com.squareup.moshi.JsonDataException: void <init>(java.lang.String)>($stack34)
+2069, com.squareup.moshi.JsonUtf8Reader, void skipName()_0 END, throw $stack26
+2074, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack12 = staticinvoke <org.assertj.core.api.Assertions: org.assertj.core.api.AbstractThrowableAssert assertThat(java.lang.Throwable)>($stack11)
+2075, Client, void failOnUnknownThrowsOnUnknownFields()_0, virtualinvoke $stack12.<org.assertj.core.api.AbstractThrowableAssert: org.assertj.core.api.AbstractThrowableAssert hasMessage(java.lang.String)>("Cannot skip unexpected NAME at $.diameter")
+2076, Client, void failOnUnknownThrowsOnUnknownFields()_0, goto [?= return]
+2077, Client, void failOnUnknownThrowsOnUnknownFields()_0 END, return
+2078, Client, void main(java.lang.String[])_0 END, return

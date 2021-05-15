@@ -1,0 +1,240 @@
+0, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack2 = new org.openapitools.codegen.utils.JsonCacheTest$TestObject
+1, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, specialinvoke $stack2.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: void <init>()>()
+2, org.openapitools.codegen.utils.JsonCacheTest$TestObject, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3, org.openapitools.codegen.utils.JsonCacheTest$TestObject, void <init>()_0 END, return
+4, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0> = $stack2
+5, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack3 = new org.openapitools.codegen.utils.JsonCacheTest$TestObject
+6, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, specialinvoke $stack3.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: void <init>()>()
+7, org.openapitools.codegen.utils.JsonCacheTest$TestObject, void <init>()_1, specialinvoke this.<java.lang.Object: void <init>()>()
+8, org.openapitools.codegen.utils.JsonCacheTest$TestObject, void <init>()_1 END, return
+9, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1> = $stack3
+10, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack4 = new java.text.SimpleDateFormat
+11, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack6 = staticinvoke <java.util.Locale: java.util.Locale getDefault()>()
+12, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, specialinvoke $stack4.<java.text.SimpleDateFormat: void <init>(java.lang.String;java.util.Locale)>("yyyy-MM-dd\'T\'HH:mm:ss.SSSX"; $stack6)
+13, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, <org.openapitools.codegen.utils.JsonCacheTest: java.text.SimpleDateFormat ISO8601_DATETIME_FORMAT_JAVA> = $stack4
+14, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack7 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+15, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack7.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: boolean booleanField> = 1
+16, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack8 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+17, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack8.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: short shortField> = 1
+18, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack9 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+19, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack9.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: int intField> = 2
+20, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack10 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+21, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack10.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: long longField> = 3L
+22, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack11 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+23, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack11.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: float floatField> = 1.23F
+24, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack12 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+25, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack12.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: double doubleField> = 4.56
+26, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack13 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_0>
+27, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack13.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: java.lang.String stringField> = "a test string field"
+28, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack14 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+29, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack14.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: boolean booleanField> = 0
+30, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack15 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+31, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack15.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: short shortField> = 4
+32, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack16 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+33, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack16.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: int intField> = 5
+34, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack17 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+35, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack17.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: long longField> = 6L
+36, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack18 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+37, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack18.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: float floatField> = 8.23F
+38, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack19 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+39, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack19.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: double doubleField> = 9.56
+40, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack20 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+41, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack20.<org.openapitools.codegen.utils.JsonCacheTest$TestObject: java.lang.String stringField> = "another test string field"
+42, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack21 = <org.openapitools.codegen.utils.JsonCacheTest: java.text.SimpleDateFormat ISO8601_DATETIME_FORMAT_JAVA>
+43, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack22 = virtualinvoke $stack21.<java.text.SimpleDateFormat: java.util.Date parse(java.lang.String)>("2019-01-16T14:02:00.000Z")
+44, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, <org.openapitools.codegen.utils.JsonCacheTest: java.util.Date EXPECTED_DATE_JAVA> = $stack22
+45, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, $stack23 = staticinvoke <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>("2019-01-16")
+46, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, <org.openapitools.codegen.utils.JsonCacheTest: org.joda.time.LocalDate EXPECTED_DATE_JODA> = $stack23
+47, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0, goto [?= return]
+48, org.openapitools.codegen.utils.JsonCacheTest, void <clinit>()_0 END, return
+49, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, $stack3 = new org.openapitools.codegen.utils.JsonCacheTest
+50, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, specialinvoke $stack3.<org.openapitools.codegen.utils.JsonCacheTest: void <init>()>()
+51, org.openapitools.codegen.utils.JsonCacheTest, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+52, org.openapitools.codegen.utils.JsonCacheTest, void <init>()_0 END, return
+53, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, virtualinvoke $stack3.<org.openapitools.codegen.utils.JsonCacheTest: void setUp()>()
+54, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $stack2 = <org.openapitools.codegen.utils.JsonCache$Factory: org.openapitools.codegen.utils.JsonCache$Factory instance>
+67, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $stack3 = interfaceinvoke $stack2.<org.openapitools.codegen.utils.JsonCache$Factory: org.openapitools.codegen.utils.JsonCache$Root create()>()
+68, org.openapitools.codegen.utils.JsonCacheImpl$FactoryImpl, org.openapitools.codegen.utils.JsonCache$Root create()_0, stack1_{68} = Func_1_68({stack3_{67}})
+112, com.fasterxml.jackson.databind.ObjectMapper, void <clinit>()_0, $stack0 = staticinvoke <com.fasterxml.jackson.databind.type.SimpleType: com.fasterxml.jackson.databind.type.SimpleType constructUnsafe(java.lang.Class)>(class "Lcom/fasterxml/jackson/databind/JsonNode;")
+128, com.fasterxml.jackson.databind.type.TypeBindings, void <init>(java.lang.String[];com.fasterxml.jackson.databind.JavaType[];java.lang.String[])_0, this.<com.fasterxml.jackson.databind.type.TypeBindings: com.fasterxml.jackson.databind.JavaType[] _types>_{128} = Func_2_128({stack1_{116}})
+172, com.fasterxml.jackson.databind.type.SimpleType, com.fasterxml.jackson.databind.type.SimpleType constructUnsafe(java.lang.Class)_0 END, stack1_{172} = Func_2_172({stack0_{112}})
+173, com.fasterxml.jackson.databind.ObjectMapper, void <clinit>()_0, <com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.JavaType JSON_NODE_TYPE> = $stack0
+617, com.fasterxml.jackson.databind.ObjectMapper, void <init>(com.fasterxml.jackson.core.JsonFactory;com.fasterxml.jackson.databind.ser.DefaultSerializerProvider;com.fasterxml.jackson.databind.deser.DefaultDeserializationContext)_0, this.<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.core.JsonFactory _jsonFactory>_{617} = Func_5_617(set())
+3031, com.fasterxml.jackson.databind.ObjectMapper, void <init>(com.fasterxml.jackson.core.JsonFactory;com.fasterxml.jackson.databind.ser.DefaultSerializerProvider;com.fasterxml.jackson.databind.deser.DefaultDeserializationContext)_0, stack32_{3031} = Func_7_3031({<com.fasterxml.jackson.databind.deser.BeanDeserializerFactory: com.fasterxml.jackson.databind.deser.BeanDeserializerFactory instance>_{3193}})
+3075, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack3 = new java.util.HashMap
+3076, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, specialinvoke $stack3.<java.util.HashMap: void <init>()>()
+3077, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks> = $stack3
+3078, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack5 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3079, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack4 = class "Ljava/util/Map;"
+3080, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack6 = virtualinvoke $stack4.<java.lang.Class: java.lang.String getName()>()
+3081, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack5.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack6; class "Ljava/util/LinkedHashMap;")
+3082, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack9 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3083, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack8 = class "Ljava/util/AbstractMap;"
+3084, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack10 = virtualinvoke $stack8.<java.lang.Class: java.lang.String getName()>()
+3085, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack9.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack10; class "Ljava/util/LinkedHashMap;")
+3086, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack13 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3087, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack12 = class "Ljava/util/concurrent/ConcurrentMap;"
+3088, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack14 = virtualinvoke $stack12.<java.lang.Class: java.lang.String getName()>()
+3089, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack13.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack14; class "Ljava/util/concurrent/ConcurrentHashMap;")
+3090, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack17 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3091, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack16 = class "Ljava/util/SortedMap;"
+3092, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack18 = virtualinvoke $stack16.<java.lang.Class: java.lang.String getName()>()
+3093, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack17.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack18; class "Ljava/util/TreeMap;")
+3094, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack21 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3095, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack20 = class "Ljava/util/NavigableMap;"
+3096, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack22 = virtualinvoke $stack20.<java.lang.Class: java.lang.String getName()>()
+3097, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack21.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack22; class "Ljava/util/TreeMap;")
+3098, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack25 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _mapFallbacks>
+3099, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack24 = class "Ljava/util/concurrent/ConcurrentNavigableMap;"
+3100, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack26 = virtualinvoke $stack24.<java.lang.Class: java.lang.String getName()>()
+3101, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack25.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack26; class "Ljava/util/concurrent/ConcurrentSkipListMap;")
+3102, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack28 = new java.util.HashMap
+3103, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, specialinvoke $stack28.<java.util.HashMap: void <init>()>()
+3104, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks> = $stack28
+3105, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack30 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3106, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack29 = class "Ljava/util/Collection;"
+3107, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack31 = virtualinvoke $stack29.<java.lang.Class: java.lang.String getName()>()
+3108, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack30.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack31; class "Ljava/util/ArrayList;")
+3109, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack34 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3110, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack33 = class "Ljava/util/List;"
+3111, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack35 = virtualinvoke $stack33.<java.lang.Class: java.lang.String getName()>()
+3112, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack34.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack35; class "Ljava/util/ArrayList;")
+3113, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack38 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3114, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack37 = class "Ljava/util/Set;"
+3115, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack39 = virtualinvoke $stack37.<java.lang.Class: java.lang.String getName()>()
+3116, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack38.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack39; class "Ljava/util/HashSet;")
+3117, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack42 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3118, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack41 = class "Ljava/util/SortedSet;"
+3119, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack43 = virtualinvoke $stack41.<java.lang.Class: java.lang.String getName()>()
+3120, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack42.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack43; class "Ljava/util/TreeSet;")
+3121, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack46 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3122, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack45 = class "Ljava/util/Queue;"
+3123, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack47 = virtualinvoke $stack45.<java.lang.Class: java.lang.String getName()>()
+3124, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack46.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack47; class "Ljava/util/LinkedList;")
+3125, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack50 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3126, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack49 = class "Ljava/util/AbstractList;"
+3127, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack51 = virtualinvoke $stack49.<java.lang.Class: java.lang.String getName()>()
+3128, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack50.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack51; class "Ljava/util/ArrayList;")
+3129, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack54 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3130, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack53 = class "Ljava/util/AbstractSet;"
+3131, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack55 = virtualinvoke $stack53.<java.lang.Class: java.lang.String getName()>()
+3132, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack54.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>($stack55; class "Ljava/util/HashSet;")
+3133, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack57 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3134, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack57.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>("java.util.Deque"; class "Ljava/util/LinkedList;")
+3135, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, $stack59 = <com.fasterxml.jackson.databind.deser.BasicDeserializerFactory: java.util.HashMap _collectionFallbacks>
+3136, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0, virtualinvoke $stack59.<java.util.HashMap: java.lang.Object put(java.lang.Object;java.lang.Object)>("java.util.NavigableSet"; class "Ljava/util/TreeSet;")
+3137, com.fasterxml.jackson.databind.deser.BasicDeserializerFactory, void <clinit>()_0 END, return
+3201, com.fasterxml.jackson.databind.DeserializationContext, void <init>(com.fasterxml.jackson.databind.deser.DeserializerFactory;com.fasterxml.jackson.databind.deser.DeserializerCache)_0, if df != null goto this.<com.fasterxml.jackson.databind.DeserializationContext: com.fasterxml.jackson.databind.deser.DeserializerFactory _factory> = df
+3202, com.fasterxml.jackson.databind.DeserializationContext, void <init>(com.fasterxml.jackson.databind.deser.DeserializerFactory;com.fasterxml.jackson.databind.deser.DeserializerCache)_0, this.<com.fasterxml.jackson.databind.DeserializationContext: com.fasterxml.jackson.databind.deser.DeserializerFactory _factory> = df
+3206, com.fasterxml.jackson.databind.deser.DeserializerCache, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3207, com.fasterxml.jackson.databind.deser.DeserializerCache, void <init>()_0, $stack1 = new java.util.concurrent.ConcurrentHashMap
+3208, com.fasterxml.jackson.databind.deser.DeserializerCache, void <init>()_0, specialinvoke $stack1.<java.util.concurrent.ConcurrentHashMap: void <init>(int;float;int)>(64; 0.75F; 4)
+3209, com.fasterxml.jackson.databind.deser.DeserializerCache, void <init>()_0, this.<com.fasterxml.jackson.databind.deser.DeserializerCache: java.util.concurrent.ConcurrentHashMap _cachedDeserializers> = $stack1
+3213, com.fasterxml.jackson.databind.deser.DeserializerCache, void <init>()_0 END, return
+3665, com.fasterxml.jackson.databind.ser.BasicSerializerFactory, void <clinit>()_0, stack49_{3665} = Func_12_3665({stack49_{3665}})
+3668, com.fasterxml.jackson.databind.ser.std.StdJdkSerializers, java.util.Collection all()_0, stack3_{3668} = Func_12_3668({stack49_{3665}})
+3670, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_0, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+3678, com.fasterxml.jackson.databind.ser.std.StdJdkSerializers, java.util.Collection all()_0, stack6_{3678} = Func_13_3678({stack49_{3665}})
+3680, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_1, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+3688, com.fasterxml.jackson.databind.ser.std.StdJdkSerializers, java.util.Collection all()_0, stack9_{3688} = Func_14_3688({stack49_{3665}})
+3690, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_2, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+3714, com.fasterxml.jackson.databind.ser.std.StdJdkSerializers, java.util.Collection all()_0, stack15_{3714} = Func_15_3714({stack49_{3665}})
+3716, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_3, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+3724, com.fasterxml.jackson.databind.ser.std.StdJdkSerializers, java.util.Collection all()_0, stack18_{3724} = Func_16_3724({stack49_{3665}})
+3726, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+4128, org.openapitools.codegen.utils.JsonCacheImpl$FactoryImpl, org.openapitools.codegen.utils.JsonCache$Root create()_0 END, stack1_{4128} = Func_17_4119({stack3_{67}, stack1_{68}})
+4129, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root> = $stack3
+4130, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $stack4 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root>
+4131, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, mapper = interfaceinvoke $stack4.<org.openapitools.codegen.utils.JsonCache$Root: com.fasterxml.jackson.databind.ObjectMapper getMapper()>()
+4134, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $u0 = new com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
+4135, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, specialinvoke $u0.<com.fasterxml.jackson.datatype.jsr310.JavaTimeModule: void <init>()>()
+4984, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_7, stack4_{4984} = Func_33_4975(set())
+5006, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+5138, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_11, stack4_{5138} = Func_34_5129(set())
+5160, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+5178, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_12, stack4_{5178} = Func_35_5169(set())
+5200, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+5717, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $r0 = (com.fasterxml.jackson.databind.Module) $u0
+5718, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, virtualinvoke mapper.<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.ObjectMapper registerModule(com.fasterxml.jackson.databind.Module)>($r0)
+6209, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $u1 = new com.fasterxml.jackson.datatype.joda.JodaModule
+6210, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, specialinvoke $u1.<com.fasterxml.jackson.datatype.joda.JodaModule: void <init>()>()
+7437, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $r1 = (com.fasterxml.jackson.databind.Module) $u1
+7438, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, virtualinvoke mapper.<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.ObjectMapper registerModule(com.fasterxml.jackson.databind.Module)>($r1)
+7783, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $u2 = new com.fasterxml.jackson.datatype.threetenbp.ThreeTenModule
+7784, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, specialinvoke $u2.<com.fasterxml.jackson.datatype.threetenbp.ThreeTenModule: void <init>()>()
+8612, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_34, stack4_{8612} = Func_69_8603(set())
+8634, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+8766, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_38, stack4_{8766} = Func_70_8757(set())
+8788, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+8806, com.fasterxml.jackson.databind.module.SimpleSerializers, void _addSerializer(java.lang.Class;com.fasterxml.jackson.databind.JsonSerializer)_39, stack4_{8806} = Func_71_8797(set())
+8828, com.fasterxml.jackson.databind.ser.std.ToStringSerializer, void <init>(java.lang.Class)_4, specialinvoke this.<com.fasterxml.jackson.databind.ser.std.StdSerializer: void <init>(java.lang.Class;boolean)>(handledType; 0)
+9345, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $r2 = (com.fasterxml.jackson.databind.Module) $u2
+9346, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, virtualinvoke mapper.<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.ObjectMapper registerModule(com.fasterxml.jackson.databind.Module)>($r2)
+9878, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $stack12 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root>
+9879, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, $stack13 = interfaceinvoke $stack12.<org.openapitools.codegen.utils.JsonCache$Root: org.openapitools.codegen.utils.JsonCache child(java.lang.String)>("/JsonCacheTest")
+9891, org.openapitools.codegen.utils.JsonCacheImpl, org.openapitools.codegen.utils.JsonCache child(java.lang.String)_0 END, stack3_{9891} = Func_74_9882({stack13_{9879}})
+9892, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache cache> = $stack13
+9893, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0, specialinvoke this.<org.openapitools.codegen.utils.JsonCacheTest: void reload()>()
+9894, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, $stack1 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root>
+9895, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, interfaceinvoke $stack1.<org.openapitools.codegen.utils.JsonCache$Root: org.openapitools.codegen.utils.JsonCache$Root unload()>()
+9900, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, $stack5 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root>
+9901, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, $stack3 = new java.io.ByteArrayInputStream
+9902, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, $stack4 = "{\n  \"JsonCacheTest\": {\n    \"array\": [1; \"2\"; 3.0; 4.0];\n    \"boolean\": true;\n    \"date\": \"2019-01-16\";\n    \"dateTimeZ\": \"2019-01-16T14:02:00.000Z\";\n    \"number\": 3.14;\n    \"string\": \"a string\";\n    \"object\": {\n      \"nestedArray\": [\"a\"; \"b\"; \"c\"; \"d\"];\n      \"nestedBoolean\": true;\n      \"nestedDateTimeZ\": \"2019-01-16T14:02:00.000Z\";\n      \"nestedNumber\": 2.72;\n      \"nestedString\": \"a nested string\";\n      \"nestedObject\": {\n        \"a\": \"foo\";\n        \"b\": \"bar\"\n      }\n    };\n    \"testObjects\": [{\n        \"booleanField\": true;\n        \"shortField\": 1;\n        \"intField\": 2;\n        \"longField\": 3;\n        \"floatField\": 1.23;\n        \"doubleField\": 4.56;\n        \"stringField\": \"a test string field\"\n      }; {\n        \"booleanField\": false;\n        \"shortField\": 4;\n        \"intField\": 5;\n        \"longField\": 6;\n        \"floatField\": 8.23;\n        \"doubleField\": 9.56;\n        \"stringField\": \"another test string field\"\n      }\n    ]\n  }\n}"
+9903, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, $stack6 = virtualinvoke $stack4.<java.lang.String: byte[] getBytes(java.lang.String)>("UTF-8")
+9904, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, specialinvoke $stack3.<java.io.ByteArrayInputStream: void <init>(byte[])>($stack6)
+9905, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0, interfaceinvoke $stack5.<org.openapitools.codegen.utils.JsonCache$Root: org.openapitools.codegen.utils.JsonCache$Root load(java.io.InputStream)>($stack3)
+9911, org.openapitools.codegen.utils.JsonCacheImpl, org.openapitools.codegen.utils.JsonCache$Root load(java.io.InputStream)_0, stack10_{9911} = Func_76_9902(set())
+9913, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode readTree(java.io.InputStream)_0, stack3_{9913} = Func_76_9904({this.<com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.core.JsonFactory _jsonFactory>_{617}})
+9914, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode readTree(java.io.InputStream)_0, stack4_{9914} = Func_76_9905(set())
+9916, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode _readTreeAndClose(com.fasterxml.jackson.core.JsonParser)_0, valueType = <com.fasterxml.jackson.databind.ObjectMapper: com.fasterxml.jackson.databind.JavaType JSON_NODE_TYPE>
+11945, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode _readTreeAndClose(com.fasterxml.jackson.core.JsonParser)_0, result = virtualinvoke deser#13.<com.fasterxml.jackson.databind.JsonDeserializer: java.lang.Object deserialize(com.fasterxml.jackson.core.JsonParser;com.fasterxml.jackson.databind.DeserializationContext)>(p0; ctxt#12)
+11946, com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer, java.lang.Object deserialize(com.fasterxml.jackson.core.JsonParser;com.fasterxml.jackson.databind.DeserializationContext)_0, stack3_{11946} = Func_87_11936({result_{11945}})
+11947, com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer, com.fasterxml.jackson.databind.JsonNode deserialize(com.fasterxml.jackson.core.JsonParser;com.fasterxml.jackson.databind.DeserializationContext)_0, $stack3 = virtualinvoke p.<com.fasterxml.jackson.core.JsonParser: int getCurrentTokenId()>()
+11948, com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer, com.fasterxml.jackson.databind.JsonNode deserialize(com.fasterxml.jackson.core.JsonParser;com.fasterxml.jackson.databind.DeserializationContext)_0, lookupswitch($stack3) {     case 1: goto $stack6 = virtualinvoke ctxt.<com.fasterxml.jackson.databind.DeserializationContext: com.fasterxml.jackson.databind.node.JsonNodeFactory getNodeFactory()>();     case 3: goto $stack4 = virtualinvoke ctxt.<com.fasterxml.jackson.databind.DeserializationContext: com.fasterxml.jackson.databind.node.JsonNodeFactory getNodeFactory()>();     default: goto $stack8 = virtualinvoke ctxt.<com.fasterxml.jackson.databind.DeserializationContext: com.fasterxml.jackson.databind.node.JsonNodeFactory getNodeFactory()>(); }
+13880, com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer, java.lang.Object deserialize(com.fasterxml.jackson.core.JsonParser;com.fasterxml.jackson.databind.DeserializationContext)_0 END, stack3_{13880} = Func_92_13862({lookupswitch(stack3) {     case 1: goto stack6_{11948}, result_{11945}, stack7_{11955}})
+13892, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode _readTreeAndClose(com.fasterxml.jackson.core.JsonParser)_0, l10 = (com.fasterxml.jackson.databind.JsonNode) result
+13894, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode _readTreeAndClose(com.fasterxml.jackson.core.JsonParser)_0, goto [?= throw $stack35]
+13896, com.fasterxml.jackson.databind.ObjectMapper, com.fasterxml.jackson.databind.JsonNode _readTreeAndClose(com.fasterxml.jackson.core.JsonParser)_0 END, return l10
+13899, org.openapitools.codegen.utils.JsonCacheImpl, org.openapitools.codegen.utils.JsonCache$Root load(java.io.InputStream)_0, this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899} = Func_95_13881({stack10_{9911}, l10_{13896}})
+13908, org.openapitools.codegen.utils.JsonCacheTest, void reload()_0 END, return
+13909, org.openapitools.codegen.utils.JsonCacheTest, void setUp()_0 END, return
+13910, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, virtualinvoke $stack3.<org.openapitools.codegen.utils.JsonCacheTest: void testGetObjectWithDefault()>()
+13911, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack3 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+13912, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack2 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache cache>
+13913, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack1 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+13914, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack4 = interfaceinvoke $stack2.<org.openapitools.codegen.utils.JsonCache: java.lang.Object getObject(java.lang.String;java.lang.Object)>("/testObjects/2"; $stack1)
+14082, com.fasterxml.jackson.databind.node.JsonNodeType, void <clinit>()_0, <com.fasterxml.jackson.databind.node.JsonNodeType: com.fasterxml.jackson.databind.node.JsonNodeType POJO>_{14082} = Func_96_14063({stack7_{14078}})
+14154, com.fasterxml.jackson.databind.node.POJONode, void <init>(java.lang.Object)_0, this.<com.fasterxml.jackson.databind.node.POJONode: java.lang.Object _value>_{14154} = Func_96_14135({stack4_{13914}, stack1_{13913}, this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899}})
+14256, org.openapitools.codegen.utils.JsonCacheImpl, void setDirty()_0, this.<org.openapitools.codegen.utils.JsonCacheImpl: boolean isDirty>_{14256} = Func_96_14237({stack4_{13914}, this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899}})
+14262, org.openapitools.codegen.utils.JsonCacheImpl$ChildCacheImpl, java.lang.Object getObject(java.lang.String;java.lang.Object)_0 END, stack7_{14262} = Func_96_14243({stack4_{13914}, stack1_{13913}, this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899}})
+14263, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, staticinvoke <org.testng.Assert: void assertSame(java.lang.Object;java.lang.Object;java.lang.String)>($stack3; $stack4; "getObject(nonExistentPath; default) returned incorrect result;")
+14264, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack5 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache$Root root>
+14265, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack6 = interfaceinvoke $stack5.<org.openapitools.codegen.utils.JsonCache$Root: boolean isDirty()>()
+14267, org.openapitools.codegen.utils.JsonCacheImpl, boolean isDirty()_0 END, stack1_{14267} = Func_97_14248({stack6_{14265}, this.<org.openapitools.codegen.utils.JsonCacheImpl: boolean isDirty>_{14256}})
+14268, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, staticinvoke <org.testng.Assert: void assertTrue(boolean;java.lang.String)>($stack6; "cache should be dirty after getObject(nonExistentPath; default);")
+14269, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack8 = <org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCacheTest$TestObject TEST_OBJECT_1>
+14270, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack7 = this.<org.openapitools.codegen.utils.JsonCacheTest: org.openapitools.codegen.utils.JsonCache cache>
+14271, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, $stack9 = interfaceinvoke $stack7.<org.openapitools.codegen.utils.JsonCache: java.lang.Object getObject(java.lang.String;java.lang.Class)>("/testObjects/2"; class "Lorg/openapitools/codegen/utils/JsonCacheTest$TestObject;")
+14276, org.openapitools.codegen.utils.JsonCacheImpl$ChildCacheImpl, java.lang.Object getObject(java.lang.String;java.lang.Class)_0, stack7_{14276} = Func_98_14257({stack9_{14271}})
+14344, com.fasterxml.jackson.databind.node.POJONode, java.lang.Object getPojo()_0 END, stack1_{14344} = Func_98_14325({this.<com.fasterxml.jackson.databind.node.POJONode: java.lang.Object _value>_{14154}, <com.fasterxml.jackson.databind.node.JsonNodeType: com.fasterxml.jackson.databind.node.JsonNodeType POJO>_{14082}, stack9_{14271}, this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899}})
+14347, org.openapitools.codegen.utils.JsonCacheImpl, java.lang.Object getObject(com.fasterxml.jackson.core.JsonPointer;java.lang.Class)_0, result_{14347} = Func_98_14328({this.<org.openapitools.codegen.utils.JsonCacheImpl: com.fasterxml.jackson.databind.node.ContainerNode root>_{13899}, stack9_{14271}})
+14460, com.fasterxml.jackson.databind.JavaType, void <init>(java.lang.Class;int;java.lang.Object;java.lang.Object;boolean)_19, this.<com.fasterxml.jackson.databind.JavaType: java.lang.Class _class>_{14460} = Func_100_14441({result#4_{14453}})
+14508, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object convertValue(java.lang.Object;java.lang.Class)_0, stack5_{14508} = Func_100_14489({result_{14347}})
+14509, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, if fromValue == null goto $stack11 = new com.fasterxml.jackson.databind.util.TokenBuffer
+14510, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, targetType = virtualinvoke toValueType.<com.fasterxml.jackson.databind.JavaType: java.lang.Class getRawClass()>()
+14512, com.fasterxml.jackson.databind.JavaType, java.lang.Class getRawClass()_9 END, stack1_{14512} = Func_101_14493({targetType_{14510}, this.<com.fasterxml.jackson.databind.JavaType: java.lang.Class _class>_{14460}})
+14513, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, if targetType == class "Ljava/lang/Object;" goto $stack11 = new com.fasterxml.jackson.databind.util.TokenBuffer
+14514, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, $stack49 = virtualinvoke toValueType.<com.fasterxml.jackson.databind.JavaType: boolean hasGenericTypes()>()
+14524, com.fasterxml.jackson.databind.JavaType, boolean hasGenericTypes()_0 END, stack2_{14524} = Func_102_14505({stack49_{14514}, this.<com.fasterxml.jackson.databind.type.TypeBindings: com.fasterxml.jackson.databind.JavaType[] _types>_{128}})
+14525, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, if $stack49 != 0 goto $stack11 = new com.fasterxml.jackson.databind.util.TokenBuffer
+14526, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, $stack50 = virtualinvoke fromValue.<java.lang.Object: java.lang.Class getClass()>()
+14527, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, $stack51 = virtualinvoke targetType.<java.lang.Class: boolean isAssignableFrom(java.lang.Class)>($stack50)
+14528, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0, if $stack51 == 0 goto $stack11 = new com.fasterxml.jackson.databind.util.TokenBuffer
+14529, com.fasterxml.jackson.databind.ObjectMapper, java.lang.Object _convert(java.lang.Object;com.fasterxml.jackson.databind.JavaType)_0 END, return fromValue
+14532, org.openapitools.codegen.utils.JsonCacheImpl$ChildCacheImpl, java.lang.Object getObject(java.lang.String;java.lang.Class)_0 END, stack7_{14532} = Func_103_14513({stack7_{14276}, fromValue_{14529}, result_{14347}, stack9_{14271}})
+14533, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0, staticinvoke <org.testng.Assert: void assertSame(java.lang.Object;java.lang.Object;java.lang.String)>($stack8; $stack9; "getObject(path; type) returned incorrect result after update;")
+14534, org.openapitools.codegen.utils.JsonCacheTest, void testGetObjectWithDefault()_0 END, return
+14535, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, $stack4 = <java.lang.System: java.io.PrintStream out>
+14536, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>("Test ran!")
+14537, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0, goto [?= return]
+14538, org.openapitools.codegen.utils.JsonCacheTest, void main(java.lang.String[])_0 END, return

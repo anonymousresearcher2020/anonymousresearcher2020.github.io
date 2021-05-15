@@ -1,0 +1,108 @@
+0, Client, void main(java.lang.String[])_0, $stack2 = new Client
+1, Client, void main(java.lang.String[])_0, specialinvoke $stack2.<Client: void <init>()>()
+2, Client, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3, Client, void <init>()_0 END, return
+4, Client, void main(java.lang.String[])_0, virtualinvoke $stack2.<Client: void failOnUnknownThrowsOnUnknownFields()>()
+5, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack4 = new com.squareup.moshi.Moshi$Builder
+6, Client, void failOnUnknownThrowsOnUnknownFields()_0, specialinvoke $stack4.<com.squareup.moshi.Moshi$Builder: void <init>()>()
+12, Client, void failOnUnknownThrowsOnUnknownFields()_0, moshi = virtualinvoke $stack4.<com.squareup.moshi.Moshi$Builder: com.squareup.moshi.Moshi build()>()
+149, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack6 = virtualinvoke moshi.<com.squareup.moshi.Moshi: com.squareup.moshi.JsonAdapter adapter(java.lang.Class)>(class "LPizza;")
+155, com.squareup.moshi.internal.Util, void <clinit>()_0, metadata = null
+156, com.squareup.moshi.internal.Util, void <clinit>()_0, defaultConstructorMarker = null
+157, com.squareup.moshi.internal.Util, void <clinit>()_0, metadata = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>("kotlin.Metadata")
+158, com.squareup.moshi.internal.Util, void <clinit>()_0, defaultConstructorMarker = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>("kotlin.jvm.internal.DefaultConstructorMarker")
+159, com.squareup.moshi.internal.Util, void <clinit>()_0, goto [?= <com.squareup.moshi.internal.Util: java.lang.Class METADATA> = metadata]
+160, com.squareup.moshi.internal.Util, void <clinit>()_0, <com.squareup.moshi.internal.Util: java.lang.Class METADATA> = metadata
+161, com.squareup.moshi.internal.Util, void <clinit>()_0, <com.squareup.moshi.internal.Util: java.lang.Class DEFAULT_CONSTRUCTOR_MARKER> = defaultConstructorMarker
+162, com.squareup.moshi.internal.Util, void <clinit>()_0 END, return
+163, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.Class)_0, stack3_{163} = Func_3_163({stack6_{149}})
+164, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set)_0, stack3_{164} = Func_3_164({stack6_{149}})
+167, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_0, $stack13 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type canonicalize(java.lang.reflect.Type)>(type)
+175, com.squareup.moshi.internal.Util, java.lang.reflect.Type canonicalize(java.lang.reflect.Type)_0 END, r0_{175} = Func_4_175({stack13_{167}})
+176, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_0, type#2 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)>($stack13)
+177, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_0, $stack3 = type instanceof java.lang.reflect.WildcardType
+178, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_0, if $stack3 != 0 goto $stack4 = (java.lang.reflect.WildcardType) type
+179, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_0 END, return type
+346, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_0, result_{346} = Func_5_346({stack3_{164}})
+360, com.squareup.moshi.ClassJsonAdapter$1, com.squareup.moshi.JsonAdapter create(java.lang.reflect.Type;java.util.Set;com.squareup.moshi.Moshi)_0, stack13_{360} = Func_5_360({stack3_{164}, type_{179}})
+361, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_0, name_{361} = Func_5_361({stack3_{164}, type_{179}})
+372, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_0, $stack8 = virtualinvoke name.<java.lang.String: boolean startsWith(java.lang.String)>("kotlinx.")
+373, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_0, if $stack8 != 0 goto $stack10 = 1
+388, com.squareup.moshi.ClassJsonAdapter$1, com.squareup.moshi.JsonAdapter create(java.lang.reflect.Type;java.util.Set;com.squareup.moshi.Moshi)_0, stack19_{388} = Func_6_388({name_{361}, stack13_{360}})
+389, com.squareup.moshi.internal.Util, boolean isKotlin(java.lang.Class)_0, $stack1 = <com.squareup.moshi.internal.Util: java.lang.Class METADATA>
+390, com.squareup.moshi.internal.Util, boolean isKotlin(java.lang.Class)_0, if $stack1 == null goto $stack4 = 0
+391, com.squareup.moshi.internal.Util, boolean isKotlin(java.lang.Class)_0, $stack4 = 0
+392, com.squareup.moshi.internal.Util, boolean isKotlin(java.lang.Class)_0 END, return $stack4
+418, com.squareup.moshi.ClassJsonAdapter$1, com.squareup.moshi.JsonAdapter create(java.lang.reflect.Type;java.util.Set;com.squareup.moshi.Moshi)_0, t_{418} = Func_7_418({type_{179}})
+425, com.squareup.moshi.Types, java.lang.Class getRawType(java.lang.reflect.Type)_4 END, stack32_{425} = Func_7_425({result_{346}, type_{179}})
+427, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_1, name_{427} = Func_7_427({result_{346}, type_{179}})
+438, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_1, $stack8 = virtualinvoke name.<java.lang.String: boolean startsWith(java.lang.String)>("kotlinx.")
+439, com.squareup.moshi.internal.Util, boolean isPlatformType(java.lang.Class)_1, if $stack8 != 0 goto $stack10 = 1
+444, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, l6_{444} = Func_8_444({stack32_{425}})
+445, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, l7_{445} = Func_8_445({stack32_{425}})
+446, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, l8_{446} = Func_8_446(set())
+464, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, stack23_{464} = Func_8_464({stack32_{425}})
+465, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, fieldType_{465} = Func_8_465({stack32_{425}})
+466, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_0, $stack3 = new java.util.LinkedHashSet
+467, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_0, specialinvoke $stack3.<java.util.LinkedHashSet: void <init>()>()
+468, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_0, $stack4 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)>(context; contextRawType; toResolve; $stack3)
+482, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)_0 END, toResolve_{482} = Func_9_482({stack23_{464}, stack4_{468}})
+483, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_0 END, return $stack4
+496, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, adapter_{496} = Func_10_496(set())
+499, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_1, $stack13 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type canonicalize(java.lang.reflect.Type)>(type)
+507, com.squareup.moshi.internal.Util, java.lang.reflect.Type canonicalize(java.lang.reflect.Type)_1 END, r0_{507} = Func_11_507({stack13_{499}, stack4_{483}})
+508, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_1, type#2 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)>($stack13)
+509, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_1, $stack3 = type instanceof java.lang.reflect.WildcardType
+510, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_1, if $stack3 != 0 goto $stack4 = (java.lang.reflect.WildcardType) type
+511, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_1 END, return type
+632, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, stack23_{632} = Func_12_632({l8_{446}, l6_{444}, l7_{445}})
+633, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, fieldType_{633} = Func_12_633({l8_{446}, l6_{444}, l7_{445}})
+634, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_1, $stack3 = new java.util.LinkedHashSet
+635, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_1, specialinvoke $stack3.<java.util.LinkedHashSet: void <init>()>()
+636, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_1, $stack4 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)>(context; contextRawType; toResolve; $stack3)
+650, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)_1 END, toResolve_{650} = Func_13_650({stack23_{632}, stack4_{636}})
+651, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_1 END, return $stack4
+664, com.squareup.moshi.ClassJsonAdapter$1, void createFieldBindings(com.squareup.moshi.Moshi;java.lang.reflect.Type;java.util.Map)_0, adapter_{664} = Func_14_664(set())
+667, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_2, $stack13 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type canonicalize(java.lang.reflect.Type)>(type)
+675, com.squareup.moshi.internal.Util, java.lang.reflect.Type canonicalize(java.lang.reflect.Type)_2 END, r0_{675} = Func_15_675({stack13_{667}, stack4_{651}})
+676, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.reflect.Type;java.util.Set;java.lang.String)_2, type#2 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)>($stack13)
+677, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_2, $stack3 = type instanceof java.lang.reflect.WildcardType
+678, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_2, if $stack3 != 0 goto $stack4 = (java.lang.reflect.WildcardType) type
+679, com.squareup.moshi.internal.Util, java.lang.reflect.Type removeSubtypeWildcard(java.lang.reflect.Type)_2 END, return type
+790, com.squareup.moshi.Types, java.lang.reflect.Type getGenericSuperclass(java.lang.reflect.Type)_0, stack3_{790} = Func_16_790({t_{418}})
+791, com.squareup.moshi.Types, java.lang.reflect.Type getGenericSuperclass(java.lang.reflect.Type)_0, stack4_{791} = Func_16_791(set())
+792, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_2, $stack3 = new java.util.LinkedHashSet
+793, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_2, specialinvoke $stack3.<java.util.LinkedHashSet: void <init>()>()
+794, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_2, $stack4 = staticinvoke <com.squareup.moshi.internal.Util: java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)>(context; contextRawType; toResolve; $stack3)
+808, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type;java.util.Collection)_2 END, toResolve_{808} = Func_17_808({stack3_{790}, stack4_{794}})
+809, com.squareup.moshi.internal.Util, java.lang.reflect.Type resolve(java.lang.reflect.Type;java.lang.Class;java.lang.reflect.Type)_2 END, return $stack4
+1349, com.squareup.moshi.ClassJsonAdapter$1, com.squareup.moshi.JsonAdapter create(java.lang.reflect.Type;java.util.Set;com.squareup.moshi.Moshi)_0, stack23_{1349} = Func_18_1349(set())
+1350, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, $stack1 = this instanceof com.squareup.moshi.internal.NullSafeJsonAdapter
+1351, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, if $stack1 == 0 goto $stack2 = new com.squareup.moshi.internal.NullSafeJsonAdapter
+1352, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, $stack2 = new com.squareup.moshi.internal.NullSafeJsonAdapter
+1353, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0, specialinvoke $stack2.<com.squareup.moshi.internal.NullSafeJsonAdapter: void <init>(com.squareup.moshi.JsonAdapter)>(this)
+1359, com.squareup.moshi.JsonAdapter, com.squareup.moshi.JsonAdapter nullSafe()_0 END, return $stack2
+1440, com.squareup.moshi.Moshi, com.squareup.moshi.JsonAdapter adapter(java.lang.Class)_0 END, stack3_{1440} = Func_20_1440({stack6_{149}, stack3_{163}})
+1441, Client, void failOnUnknownThrowsOnUnknownFields()_0, adapter = virtualinvoke $stack6.<com.squareup.moshi.JsonAdapter: com.squareup.moshi.JsonAdapter failOnUnknown()>()
+1451, Client, void failOnUnknownThrowsOnUnknownFields()_0, virtualinvoke adapter.<com.squareup.moshi.JsonAdapter: java.lang.Object fromJson(java.lang.String)>("{\"diameter\":5;\"crust\":\"thick\";\"extraCheese\":true}")
+1473, com.squareup.moshi.JsonReader, void <init>()_0, this.<com.squareup.moshi.JsonReader: int[] scopes>_{1473} = Func_22_1473(set())
+1475, com.squareup.moshi.JsonReader, void <init>()_0, this.<com.squareup.moshi.JsonReader: java.lang.String[] pathNames>_{1475} = Func_22_1475(set())
+1580, com.squareup.moshi.JsonReader$Token, void <clinit>()_0, <com.squareup.moshi.JsonReaderToken: com.squareup.moshi.JsonReaderToken NAME>_{1580} = Func_22_1580({stack4_{1576}})
+1656, com.squareup.moshi.JsonReader, void pushScope(int)_1, this.<com.squareup.moshi.JsonReader: int stackSize>_{1656} = Func_22_1656({stack2_{1566}, stack8_{1596}})
+2054, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, peeked = virtualinvoke this.<com.squareup.moshi.JsonUtf8Reader: com.squareup.moshi.JsonReader$Token peek()>()
+2059, com.squareup.moshi.JsonUtf8Reader, com.squareup.moshi.JsonReader$Token peek()_1 END, stack4_{2059} = Func_23_2058({peeked_{2054}, <com.squareup.moshi.JsonReaderToken: com.squareup.moshi.JsonReaderToken NAME>_{1580}})
+2060, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, virtualinvoke this.<com.squareup.moshi.JsonUtf8Reader: java.lang.String nextName()>()
+2075, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack28 = new com.squareup.moshi.JsonDataException
+2076, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack29 = new java.lang.StringBuilder
+2077, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, specialinvoke $stack29.<java.lang.StringBuilder: void <init>()>()
+2078, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack30 = virtualinvoke $stack29.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("Cannot skip unexpected ")
+2079, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack31 = virtualinvoke $stack30.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>(peeked)
+2080, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack32 = virtualinvoke $stack31.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>(" at ")
+2081, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack33 = virtualinvoke this.<com.squareup.moshi.JsonUtf8Reader: java.lang.String getPath()>()
+2120, com.squareup.moshi.JsonReader, java.lang.String getPath()_0 END, stack5_{2120} = Func_25_2119({stack33_{2081}, this.<com.squareup.moshi.JsonReader: int stackSize>_{1656}, this.<com.squareup.moshi.JsonReader: int[] scopes>_{1473}, this.<com.squareup.moshi.JsonReader: java.lang.String[] pathNames>_{1475}})
+2121, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack34 = virtualinvoke $stack32.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack33)
+2122, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, $stack35 = virtualinvoke $stack34.<java.lang.StringBuilder: java.lang.String toString()>()
+2123, com.squareup.moshi.JsonUtf8Reader, void skipName()_0, specialinvoke $stack28.<com.squareup.moshi.JsonDataException: void <init>(java.lang.String)>($stack35)
+2126, com.squareup.moshi.JsonUtf8Reader, void skipName()_0 END, throw $stack28
+2131, Client, void failOnUnknownThrowsOnUnknownFields()_0, $stack12 = staticinvoke <org.assertj.core.api.Assertions: org.assertj.core.api.AbstractThrowableAssert assertThat(java.lang.Throwable)>($stack11)
+2132, Client, void failOnUnknownThrowsOnUnknownFields()_0, virtualinvoke $stack12.<org.assertj.core.api.AbstractThrowableAssert: org.assertj.core.api.AbstractThrowableAssert hasMessage(java.lang.String)>("Cannot skip unexpected NAME at $.diameter")

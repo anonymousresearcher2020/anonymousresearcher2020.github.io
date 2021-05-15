@@ -1,0 +1,25 @@
+0, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, $stack2 = new org.modelmapper.dagger.DaggerIntegrationTest
+1, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, specialinvoke $stack2.<org.modelmapper.dagger.DaggerIntegrationTest: void <init>()>()
+2, org.modelmapper.dagger.DaggerIntegrationTest, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3, org.modelmapper.dagger.DaggerIntegrationTest, void <init>()_0 END, return
+4, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, $stack3 = <java.lang.System: java.io.PrintStream out>
+5, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>("Heel")
+6, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, virtualinvoke $stack2.<org.modelmapper.dagger.DaggerIntegrationTest: void testFromDagger()>()
+7, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack3 = new org.modelmapper.dagger.DaggerIntegrationTest$1
+8, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, specialinvoke $stack3.<org.modelmapper.dagger.DaggerIntegrationTest$1: void <init>(org.modelmapper.dagger.DaggerIntegrationTest)>(this)
+9, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0, this.<org.modelmapper.dagger.DaggerIntegrationTest$1: org.modelmapper.dagger.DaggerIntegrationTest this$0> = this$0
+10, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0, specialinvoke this.<org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO: void <init>()>()
+11, org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+12, org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO, void <init>()_0 END, return
+13, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0 END, return
+14, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack4 = newarray (java.lang.Object)[1]
+15, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack5 = new org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule
+16, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, specialinvoke $stack5.<org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule: void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)>($stack3)
+17, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0, specialinvoke this.<java.lang.Object: void <init>()>()
+18, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0, this.<org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule: org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO orderDTO> = orderDTO
+19, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0 END, return
+20, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack4[0] = $stack5
+21, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, staticinvoke <dagger.ObjectGraph: dagger.ObjectGraph create(java.lang.Object[])>($stack4)
+22, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack1 = new dagger.internal.FailoverLoader
+23, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, specialinvoke $stack1.<dagger.internal.FailoverLoader: void <init>()>()
+62, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack3 = staticinvoke <dagger.ObjectGraph$DaggerObjectGraph: dagger.ObjectGraph makeGraph(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Loader;java.lang.Object[])>(null; $stack1; modules)

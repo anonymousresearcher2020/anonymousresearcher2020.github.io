@@ -1,0 +1,71 @@
+0, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+1, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void <init>()_0 END, return
+6, com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint, void <init>(com.intuit.wasabi.export.rest.RestEndPoint$Configuration)_0, this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint: com.intuit.wasabi.export.rest.RestEndPointConfiguration configuration>_{6} = Func_0_6(set())
+8, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack2 = <java.lang.System: java.io.PrintStream out>
+9, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, virtualinvoke $stack2.<java.io.PrintStream: void println(java.lang.String)>("Hello")
+10, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack3 = this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest: com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration config>
+11, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack4 = virtualinvoke $stack3.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration: java.lang.String getScheme()>()
+12, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack5 = staticinvoke <org.mockito.BDDMockito: org.mockito.BDDMockito$BDDMyOngoingStubbing given(java.lang.Object)>($stack4)
+13, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, interfaceinvoke $stack5.<org.mockito.BDDMockito$BDDMyOngoingStubbing: org.mockito.BDDMockito$BDDMyOngoingStubbing willReturn(java.lang.Object)>("http")
+14, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack7 = this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest: com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration config>
+15, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack8 = virtualinvoke $stack7.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration: java.lang.String getHost()>()
+16, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack9 = staticinvoke <org.mockito.BDDMockito: org.mockito.BDDMockito$BDDMyOngoingStubbing given(java.lang.Object)>($stack8)
+17, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, interfaceinvoke $stack9.<org.mockito.BDDMockito$BDDMyOngoingStubbing: org.mockito.BDDMockito$BDDMyOngoingStubbing willReturn(java.lang.Object)>("host1")
+18, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack11 = this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest: com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration config>
+19, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack12 = virtualinvoke $stack11.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration: java.lang.String getPath()>()
+20, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack13 = staticinvoke <org.mockito.BDDMockito: org.mockito.BDDMockito$BDDMyOngoingStubbing given(java.lang.Object)>($stack12)
+21, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, interfaceinvoke $stack13.<org.mockito.BDDMockito$BDDMyOngoingStubbing: org.mockito.BDDMockito$BDDMyOngoingStubbing willReturn(java.lang.Object)>("path1")
+22, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack15 = this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest: com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration config>
+23, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack16 = virtualinvoke $stack15.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointConfiguration: int getPort()>()
+24, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack17 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($stack16)
+25, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack18 = staticinvoke <org.mockito.BDDMockito: org.mockito.BDDMockito$BDDMyOngoingStubbing given(java.lang.Object)>($stack17)
+26, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack19 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>(5)
+27, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, interfaceinvoke $stack18.<org.mockito.BDDMockito$BDDMyOngoingStubbing: org.mockito.BDDMockito$BDDMyOngoingStubbing willReturn(java.lang.Object)>($stack19)
+28, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack21 = this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest: com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint rest>
+29, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, uri = virtualinvoke $stack21.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint: java.net.URI getRestEndPointURI()>()
+39, org.apache.http.client.utils.URIBuilder, org.apache.http.client.utils.URIBuilder setScheme(java.lang.String)_0, this.<org.apache.http.client.utils.URIBuilder: java.lang.String scheme>_{39} = Func_1_39({uri_{29}, this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint: com.intuit.wasabi.export.rest.RestEndPointConfiguration configuration>_{6}})
+44, org.apache.http.client.utils.URIBuilder, org.apache.http.client.utils.URIBuilder setHost(java.lang.String)_0, this.<org.apache.http.client.utils.URIBuilder: java.lang.String host>_{44} = Func_1_44({uri_{29}, this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint: com.intuit.wasabi.export.rest.RestEndPointConfiguration configuration>_{6}})
+50, com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint, java.net.URI getRestEndPointURI()_0, uriBuilder_{50} = Func_1_50({uri_{29}})
+51, org.apache.http.client.utils.URIBuilder, org.apache.http.client.utils.URIBuilder setPath(java.lang.String)_0, this.<org.apache.http.client.utils.URIBuilder: java.lang.String path> = path
+65, com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint, java.net.URI getRestEndPointURI()_0, assignmentURI_{65} = Func_2_65({uri_{29}})
+66, org.apache.http.client.utils.URIBuilder, java.net.URI build()_0, stack1_{66} = Func_2_66({uri_{29}})
+67, org.apache.http.client.utils.URIBuilder, java.net.URI build()_0, stack2_{67} = Func_2_67({uri_{29}})
+68, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, stack2_{68} = Func_2_68({uri_{29}})
+73, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, stack74_{73} = Func_2_73({uri_{29}, this.<org.apache.http.client.utils.URIBuilder: java.lang.String scheme>_{39}})
+153, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, stack52_{153} = Func_2_153({stack2_{92}, uri_{29}, this.<org.apache.http.client.utils.URIBuilder: java.lang.String host>_{44}, this.<org.apache.http.client.utils.URIBuilder: java.lang.String scheme>_{39}, this.<com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint: com.intuit.wasabi.export.rest.RestEndPointConfiguration configuration>_{6}})
+158, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, $stack8 = this.<org.apache.http.client.utils.URIBuilder: java.lang.String path>
+159, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, if $stack8 == null goto $stack9 = this.<org.apache.http.client.utils.URIBuilder: java.lang.String encodedQuery>
+160, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, $stack35 = this.<org.apache.http.client.utils.URIBuilder: java.lang.String path>
+161, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, $stack36 = staticinvoke <org.apache.http.client.utils.URIBuilder: java.lang.String normalizePath(java.lang.String)>($stack35)
+162, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, s = path
+163, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, if path != null goto n = 0
+164, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, n = 0
+165, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, $stack3 = virtualinvoke path.<java.lang.String: int length()>()
+166, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, if n >= $stack3 goto (branch)
+167, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, $stack7 = virtualinvoke path.<java.lang.String: char charAt(int)>(n)
+168, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, if $stack7 == 47 goto n = n + 1
+169, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, goto [?= (branch)]
+170, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0, if n <= 1 goto return s
+171, org.apache.http.client.utils.URIBuilder, java.lang.String normalizePath(java.lang.String)_0 END, return s
+172, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, $stack37 = specialinvoke this.<org.apache.http.client.utils.URIBuilder: java.lang.String encodePath(java.lang.String)>($stack36)
+173, org.apache.http.client.utils.URIBuilder, java.lang.String encodePath(java.lang.String)_0, $stack2 = this.<org.apache.http.client.utils.URIBuilder: java.nio.charset.Charset charset>
+174, org.apache.http.client.utils.URIBuilder, java.lang.String encodePath(java.lang.String)_0, if $stack2 == null goto $stack3 = <org.apache.http.Consts: java.nio.charset.Charset UTF_8>
+175, org.apache.http.client.utils.URIBuilder, java.lang.String encodePath(java.lang.String)_0, $stack3 = <org.apache.http.Consts: java.nio.charset.Charset UTF_8>
+176, org.apache.http.client.utils.URIBuilder, java.lang.String encodePath(java.lang.String)_0, $stack4 = staticinvoke <org.apache.http.client.utils.URLEncodedUtils: java.lang.String encPath(java.lang.String;java.nio.charset.Charset)>(path; $stack3)
+188, org.apache.http.client.utils.URLEncodedUtils, void <clinit>()_0, <org.apache.http.client.utils.URLEncodedUtils: java.util.BitSet PATHSAFE>_{188} = Func_3_188({stack4_{186}})
+558, org.apache.http.client.utils.URLEncodedUtils, void <clinit>()_0, $stack32 = <org.apache.http.client.utils.URLEncodedUtils: java.util.BitSet PATHSAFE>
+559, org.apache.http.client.utils.URLEncodedUtils, void <clinit>()_0, virtualinvoke $stack32.<java.util.BitSet: void set(int)>(47)
+607, org.apache.http.client.utils.URLEncodedUtils, java.lang.String encPath(java.lang.String;java.nio.charset.Charset)_0, $stack2 = <org.apache.http.client.utils.URLEncodedUtils: java.util.BitSet PATHSAFE>
+608, org.apache.http.client.utils.URLEncodedUtils, java.lang.String encPath(java.lang.String;java.nio.charset.Charset)_0, $stack3 = staticinvoke <org.apache.http.client.utils.URLEncodedUtils: java.lang.String urlEncode(java.lang.String;java.nio.charset.Charset;java.util.BitSet;boolean)>(content; charset; $stack2; 0)
+666, org.apache.http.client.utils.URLEncodedUtils, java.lang.String urlEncode(java.lang.String;java.nio.charset.Charset;java.util.BitSet;boolean)_0 END, stack12_{666} = Func_5_661({stack3_{608}, stack2_{607}})
+667, org.apache.http.client.utils.URLEncodedUtils, java.lang.String encPath(java.lang.String;java.nio.charset.Charset)_0 END, return $stack3
+668, org.apache.http.client.utils.URIBuilder, java.lang.String encodePath(java.lang.String)_0 END, return $stack4
+669, org.apache.http.client.utils.URIBuilder, java.lang.String buildString()_0, virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack37)
+685, com.intuit.wasabi.export.rest.impl.DefaultRestEndPoint, java.net.URI getRestEndPointURI()_0 END, assignmentURI_{685} = Func_6_680({stack52_{153}, uri_{29}, stack2_{67}, stack2_{68}, stack74_{73}, assignmentURI_{65}, stack1_{66}})
+686, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack23 = <java.lang.System: java.io.PrintStream out>
+687, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack24 = virtualinvoke uri.<java.net.URI: java.lang.String toString()>()
+688, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, virtualinvoke $stack23.<java.io.PrintStream: void println(java.lang.String)>($stack24)
+689, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack25 = virtualinvoke uri.<java.net.URI: java.lang.String toString()>()
+690, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, $stack26 = staticinvoke <org.assertj.core.api.BDDAssertions: org.assertj.core.api.AbstractCharSequenceAssert then(java.lang.String)>($stack25)
+691, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0, virtualinvoke $stack26.<org.assertj.core.api.AbstractCharSequenceAssert: org.assertj.core.api.AbstractAssert isEqualTo(java.lang.Object)>("http://host1:5path1")
+692, com.intuit.wasabi.export.rest.impl.DefaultRestEndPointTest, void testGetRestEndPointURI()_0 END, return

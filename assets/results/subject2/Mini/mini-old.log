@@ -1,0 +1,81 @@
+, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, $stack2 = new org.modelmapper.dagger.DaggerIntegrationTest
+1, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, specialinvoke $stack2.<org.modelmapper.dagger.DaggerIntegrationTest: void <init>()>()
+2, org.modelmapper.dagger.DaggerIntegrationTest, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+3, org.modelmapper.dagger.DaggerIntegrationTest, void <init>()_0 END, return
+4, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, $stack3 = <java.lang.System: java.io.PrintStream out>
+5, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, virtualinvoke $stack3.<java.io.PrintStream: void println(java.lang.String)>("Heel")
+6, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0, virtualinvoke $stack2.<org.modelmapper.dagger.DaggerIntegrationTest: void testFromDagger()>()
+7, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack3 = new org.modelmapper.dagger.DaggerIntegrationTest$1
+8, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, specialinvoke $stack3.<org.modelmapper.dagger.DaggerIntegrationTest$1: void <init>(org.modelmapper.dagger.DaggerIntegrationTest)>(this)
+9, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0, this.<org.modelmapper.dagger.DaggerIntegrationTest$1: org.modelmapper.dagger.DaggerIntegrationTest this$0> = this$0
+10, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0, specialinvoke this.<org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO: void <init>()>()
+11, org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+12, org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO, void <init>()_0 END, return
+13, org.modelmapper.dagger.DaggerIntegrationTest$1, void <init>(org.modelmapper.dagger.DaggerIntegrationTest)_0 END, return
+14, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack4 = newarray (java.lang.Object)[1]
+15, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack5 = new org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule
+16, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, specialinvoke $stack5.<org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule: void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)>($stack3)
+17, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0, specialinvoke this.<java.lang.Object: void <init>()>()
+18, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0, this.<org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule: org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO orderDTO> = orderDTO
+19, org.modelmapper.dagger.DaggerIntegrationTest$WarehouseModule, void <init>(org.modelmapper.dagger.DaggerIntegrationTest$OrderDTO)_0 END, return
+20, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack4[0] = $stack5
+21, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, staticinvoke <dagger.ObjectGraph: dagger.ObjectGraph create(java.lang.Object[])>($stack4)
+22, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $u2 = new dagger.internal.RuntimeAggregatingPlugin
+23, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack3 = newarray (dagger.internal.Plugin)[2]
+24, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $u0 = new dagger.internal.plugins.loading.ClassloadingPlugin
+30, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, specialinvoke $u0.<dagger.internal.plugins.loading.ClassloadingPlugin: void <init>()>()
+33, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack3[0] = $u0
+34, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $u1 = new dagger.internal.plugins.reflect.ReflectivePlugin
+35, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, specialinvoke $u1.<dagger.internal.plugins.reflect.ReflectivePlugin: void <init>()>()
+38, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack3[1] = $u1
+39, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, r0_{39} = Func_3_39({stack3[1]_{38}, stack3_{23}, stack3[0]_{33}})
+40, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, specialinvoke $u2.<dagger.internal.RuntimeAggregatingPlugin: void <init>(dagger.internal.Plugin[])>($r0)
+45, dagger.internal.RuntimeAggregatingPlugin, void <init>(dagger.internal.Plugin[])_0, this.<dagger.internal.RuntimeAggregatingPlugin: dagger.internal.Plugin[] plugins>_{45} = Func_4_45({r0_{39}})
+47, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0, $stack8 = staticinvoke <dagger.ObjectGraph$DaggerObjectGraph: dagger.ObjectGraph access$000(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Plugin;java.lang.Object[])>(null; $u2; modules)
+48, dagger.ObjectGraph$DaggerObjectGraph, dagger.ObjectGraph access$000(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Plugin;java.lang.Object[])_0, stack3_{48} = Func_5_48({stack8_{47}})
+61, dagger.ObjectGraph$DaggerObjectGraph, dagger.ObjectGraph makeGraph(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Plugin;java.lang.Object[])_0, stack17_{61} = Func_5_61({stack8_{47}})
+63, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, seedAdapters_{63} = Func_5_63({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+68, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, module_{68} = Func_5_68({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+74, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, stack21_{74} = Func_5_74({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+121, dagger.internal.RuntimeAggregatingPlugin, dagger.internal.ModuleAdapter getModuleAdapter(java.lang.Class;java.lang.Object)_0, result_{121} = Func_5_121({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+127, dagger.internal.plugins.reflect.ReflectivePlugin, dagger.internal.ModuleAdapter getModuleAdapter(java.lang.Class;java.lang.Object)_0, stack6_{127} = Func_5_127({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+130, dagger.internal.plugins.reflect.ReflectiveModuleAdapter, void <init>(java.lang.Class;dagger.Module)_0, stack4_{130} = Func_5_130({stack4_{14}, stack8_{47}, stack4[0]_{20}})
+132, dagger.internal.plugins.reflect.ReflectiveModuleAdapter, java.lang.String[] injectableTypesToKeys(java.lang.Class[])_0, result_{132} = Func_5_132({stack4_{14}, this.<dagger.internal.RuntimeAggregatingPlugin: dagger.internal.Plugin[] plugins>_{45}, stack8_{47}, stack4[0]_{20}})
+136, dagger.internal.plugins.reflect.ReflectiveModuleAdapter, java.lang.String[] injectableTypesToKeys(java.lang.Class[])_0, injectableType_{136} = Func_5_136({stack4_{14}, this.<dagger.internal.RuntimeAggregatingPlugin: dagger.internal.Plugin[] plugins>_{45}, stack8_{47}, stack4[0]_{20}})
+140, dagger.internal.plugins.reflect.ReflectiveModuleAdapter, java.lang.String[] injectableTypesToKeys(java.lang.Class[])_0, stack7_{140} = Func_5_140({stack4_{14}, this.<dagger.internal.RuntimeAggregatingPlugin: dagger.internal.Plugin[] plugins>_{45}, stack8_{47}, stack4[0]_{20}})
+173, dagger.internal.Keys, void <clinit>()_0, $stack24 = new dagger.internal.Keys$1
+174, dagger.internal.Keys, void <clinit>()_0, specialinvoke $stack24.<dagger.internal.Keys$1: void <init>(int)>(2147483647)
+184, dagger.internal.Keys, void <clinit>()_0, <dagger.internal.Keys: dagger.internal.LruCache IS_QUALIFIER_ANNOTATION> = $stack24
+185, dagger.internal.Keys, void <clinit>()_0 END, return
+186, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, $stack1 = new java.lang.StringBuilder
+187, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, specialinvoke $stack1.<java.lang.StringBuilder: void <init>()>()
+188, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, $stack2 = virtualinvoke $stack1.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("members/")
+189, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, $stack3 = staticinvoke <dagger.internal.Keys: java.lang.String get(java.lang.reflect.Type)>(key)
+220, dagger.internal.Keys, java.lang.String get(java.lang.reflect.Type)_0 END, stack1_{220} = Func_7_220({injectableType_{136}, stack3_{189}})
+221, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, $stack4 = virtualinvoke $stack2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($stack3)
+222, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0, $stack5 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>()
+223, dagger.internal.Keys, java.lang.String getMembersKey(java.lang.Class)_0 END, return $stack5
+237, dagger.internal.ModuleAdapter, void <init>(java.lang.String[];java.lang.Class[];boolean;java.lang.Class[];boolean;boolean)_0, this.<dagger.internal.ModuleAdapter: java.lang.String[] injectableTypes>_{237} = Func_8_237({stack5_{223}, stack4_{130}, result_{132}})
+250, dagger.internal.RuntimeAggregatingPlugin, dagger.internal.ModuleAdapter getModuleAdapter(java.lang.Class;java.lang.Object)_0, result.<dagger.internal.ModuleAdapter: java.lang.Object module>_{250} = Func_8_250({module_{68}, stack21_{74}, result_{121}, stack6_{127}})
+256, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, stack10_{256} = Func_8_256({stack17_{61}})
+261, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, adapter_{261} = Func_8_261({stack21_{74}, stack17_{61}, module_{68}, seedAdapters_{63}, stack6_{127}, result_{121}})
+262, dagger.internal.RuntimeAggregatingPlugin, java.util.Map getAllModuleAdapters(dagger.internal.Plugin;java.lang.Object[])_0, stack13_{262} = Func_8_262({stack21_{74}, stack17_{61}, module_{68}, seedAdapters_{63}, stack6_{127}, result_{121}})
+263, dagger.internal.ModuleAdapter, java.lang.Object getModule()_0, $stack1 = this.<dagger.internal.ModuleAdapter: java.lang.Object module>
+264, dagger.internal.ModuleAdapter, java.lang.Object getModule()_0 END, return $stack1
+295, dagger.ObjectGraph$DaggerObjectGraph, dagger.ObjectGraph makeGraph(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Plugin;java.lang.Object[])_0, stack45_{295} = Func_9_295({stack1_{264}, stack17_{61}, stack10_{256}, this.<dagger.internal.ModuleAdapter: java.lang.String[] injectableTypes>_{237}, adapter_{261}, stack3_{48}})
+296, dagger.internal.ModuleAdapter, java.lang.Object getModule()_1, $stack1 = this.<dagger.internal.ModuleAdapter: java.lang.Object module>
+297, dagger.internal.ModuleAdapter, java.lang.Object getModule()_1 END, return $stack1
+546, dagger.internal.Linker, void <clinit>()_0, $stack0 = new java.lang.Object
+547, dagger.internal.Linker, void <clinit>()_0, specialinvoke $stack0.<java.lang.Object: void <init>()>()
+548, dagger.internal.Linker, void <clinit>()_0, <dagger.internal.Linker: java.lang.Object UNINITIALIZED> = $stack0
+549, dagger.internal.Linker, void <clinit>()_0 END, return
+556, dagger.internal.Linker, void <init>(dagger.internal.Linker;dagger.internal.Plugin;dagger.internal.Linker$ErrorHandler)_0, specialinvoke this.<java.lang.Object: void <init>()>()
+557, dagger.internal.Linker, void <init>(dagger.internal.Linker;dagger.internal.Plugin;dagger.internal.Linker$ErrorHandler)_0, $stack4 = new java.util.LinkedList
+558, dagger.internal.Linker, void <init>(dagger.internal.Linker;dagger.internal.Plugin;dagger.internal.Linker$ErrorHandler)_0, specialinvoke $stack4.<java.util.LinkedList: void <init>()>()
+559, dagger.internal.Linker, void <init>(dagger.internal.Linker;dagger.internal.Plugin;dagger.internal.Linker$ErrorHandler)_0, this.<dagger.internal.Linker: java.util.Queue toLink> = $stack4
+620, dagger.ObjectGraph$DaggerObjectGraph, dagger.ObjectGraph access$000(dagger.ObjectGraph$DaggerObjectGraph;dagger.internal.Plugin;java.lang.Object[])_0 END, stack3_{620} = Func_12_620({stack8_{47}, stack3_{48}})
+621, dagger.ObjectGraph, dagger.ObjectGraph create(java.lang.Object[])_0 END, return $stack8
+622, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, $stack8 = <java.lang.System: java.io.PrintStream out>
+623, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0, virtualinvoke $stack8.<java.io.PrintStream: void println(java.lang.String)>("Heel")
+624, org.modelmapper.dagger.DaggerIntegrationTest, void testFromDagger()_0 END, return
+625, org.modelmapper.dagger.DaggerIntegrationTest, void main(java.lang.String[])_0 END, return

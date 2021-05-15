@@ -1,0 +1,115 @@
+0, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, $stack0 = "{\'product\':{\'name\':\'Banana\';\'id\':123;\'price\':23}}"
+1, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, $stack1 = virtualinvoke $stack0.<java.lang.String: java.lang.String replace(char;char)>(39; 34)
+2, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, <com.thoughtworks.xstream.io.json.Client: java.lang.String SIMPLE> = $stack1
+3, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, $stack2 = staticinvoke <com.thoughtworks.xstream.core.JVM: boolean is15()>()
+17, com.thoughtworks.xstream.core.JVM, void <clinit>()_0, <com.thoughtworks.xstream.core.JVM: float majorJavaVersion>_{17} = Func_0_17({<com.thoughtworks.xstream.core.JVM: float majorJavaVersion>_{17}})
+2706, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, if $stack2 == 0 goto $stack3 = "{\'category\':{\'name\':\'fruit\';\'id\':111;\'products\':{\'product\':[{\'name\':\'Banana\';\'id\':123;\'price\':23.01;\'tags\':{\'string\':[\'yellow\';\'fresh\';\'tasty\']}};{\'name\':\'Mango\';\'id\':124;\'price\':34.01}]}}}"
+2707, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, $stack3 = "{\'category\':{\'name\':\'fruit\';\'id\':111;\'products\':[{\'product\':[{\'name\':\'Banana\';\'id\':123;\'price\':23.01;\'tags\':[{\'string\':[\'yellow\';\'fresh\';\'tasty\']}]};{\'name\':\'Mango\';\'id\':124;\'price\':34.01}]}]}}"
+2708, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, goto [?= $stack4 = virtualinvoke $stack3.<java.lang.String: java.lang.String replace(char;char)>(39; 34)]
+2709, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, $stack4 = virtualinvoke $stack3.<java.lang.String: java.lang.String replace(char;char)>(39; 34)
+2710, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0, <com.thoughtworks.xstream.io.json.Client: java.lang.String HIERARCHY> = $stack4
+2711, com.thoughtworks.xstream.io.json.Client, void <clinit>()_0 END, return
+2712, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, $stack3 = new com.thoughtworks.xstream.io.json.Client
+2713, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, specialinvoke $stack3.<com.thoughtworks.xstream.io.json.Client: void <init>()>()
+2714, com.thoughtworks.xstream.io.json.Client, void <init>()_0, specialinvoke this.<java.lang.Object: void <init>()>()
+2715, com.thoughtworks.xstream.io.json.Client, void <init>()_0 END, return
+2716, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, virtualinvoke $stack3.<com.thoughtworks.xstream.io.json.Client: void setUp()>()
+2717, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack1 = new com.thoughtworks.xstream.XStream
+2718, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack2 = new com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver
+2722, com.thoughtworks.xstream.io.json.Client, void setUp()_0, specialinvoke $stack2.<com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver: void <init>()>()
+2746, org.codehaus.jettison.mapped.DefaultConverter, void <clinit>()_0, <org.codehaus.jettison.mapped.DefaultConverter: boolean ENFORCE_32BIT_INTEGER>_{2746} = Func_2_2725({stack0_{2745}})
+2872, org.codehaus.jettison.mapped.MappedXMLInputFactory, void <init>(org.codehaus.jettison.mapped.Configuration)_0, this.<org.codehaus.jettison.mapped.MappedXMLInputFactory: org.codehaus.jettison.mapped.MappedNamespaceConvention convention>_{2872} = Func_3_2851({stack2_{2743}})
+2925, com.thoughtworks.xstream.io.json.Client, void setUp()_0, specialinvoke $stack1.<com.thoughtworks.xstream.XStream: void <init>(com.thoughtworks.xstream.io.HierarchicalStreamDriver)>($stack2)
+32250, com.thoughtworks.xstream.io.json.Client, void setUp()_0, this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream> = $stack1
+32251, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack3 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+32252, com.thoughtworks.xstream.io.json.Client, void setUp()_0, staticinvoke <com.thoughtworks.xstream.XStream: void setupDefaultSecurity(com.thoughtworks.xstream.XStream)>($stack3)
+33896, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack6 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+33897, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack4 = newarray (java.lang.String)[2]
+33898, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack5 = new java.lang.StringBuffer
+33899, com.thoughtworks.xstream.io.json.Client, void setUp()_0, specialinvoke $stack5.<java.lang.StringBuffer: void <init>()>()
+33900, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack8 = virtualinvoke this.<java.lang.Object: java.lang.Class getClass()>()
+33901, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack9 = virtualinvoke $stack8.<java.lang.Class: java.lang.String getName()>()
+33902, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack10 = virtualinvoke $stack5.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>($stack9)
+33903, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack11 = virtualinvoke $stack10.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>("$*")
+33904, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack12 = virtualinvoke $stack11.<java.lang.StringBuffer: java.lang.String toString()>()
+33905, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack4[0] = $stack12
+33906, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack4[1] = "com.thoughtworks.acceptance.objects.*"
+33907, com.thoughtworks.xstream.io.json.Client, void setUp()_0, virtualinvoke $stack6.<com.thoughtworks.xstream.XStream: void allowTypesByWildcard(java.lang.String[])>($stack4)
+34698, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack15 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+34699, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack13 = <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Category>
+34700, com.thoughtworks.xstream.io.json.Client, void setUp()_0, if $stack13 != null goto $stack14 = <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Category>
+34701, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack14 = staticinvoke <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$(java.lang.String)>("com.thoughtworks.acceptance.objects.Category")
+34702, com.thoughtworks.xstream.io.json.Client, java.lang.Class class$(java.lang.String)_0, $stack2 = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>(x0)
+34703, com.thoughtworks.xstream.io.json.Client, java.lang.Class class$(java.lang.String)_0 END, return $stack2
+34704, com.thoughtworks.xstream.io.json.Client, void setUp()_0, <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Category> = $stack14
+34705, com.thoughtworks.xstream.io.json.Client, void setUp()_0, goto [?= virtualinvoke $stack15.<com.thoughtworks.xstream.XStream: void alias(java.lang.String;java.lang.Class)>("category"; $stack14)]
+34706, com.thoughtworks.xstream.io.json.Client, void setUp()_0, virtualinvoke $stack15.<com.thoughtworks.xstream.XStream: void alias(java.lang.String;java.lang.Class)>("category"; $stack14)
+34719, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack18 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+34720, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack16 = <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Product>
+34721, com.thoughtworks.xstream.io.json.Client, void setUp()_0, if $stack16 != null goto $stack17 = <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Product>
+34722, com.thoughtworks.xstream.io.json.Client, void setUp()_0, $stack17 = staticinvoke <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$(java.lang.String)>("com.thoughtworks.acceptance.objects.Product")
+34723, com.thoughtworks.xstream.io.json.Client, java.lang.Class class$(java.lang.String)_1, $stack2 = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>(x0)
+34724, com.thoughtworks.xstream.io.json.Client, java.lang.Class class$(java.lang.String)_1 END, return $stack2
+34725, com.thoughtworks.xstream.io.json.Client, void setUp()_0, <com.thoughtworks.xstream.io.json.Client: java.lang.Class class$com$thoughtworks$acceptance$objects$Product> = $stack17
+34726, com.thoughtworks.xstream.io.json.Client, void setUp()_0, goto [?= virtualinvoke $stack15.<com.thoughtworks.xstream.XStream: void alias(java.lang.String;java.lang.Class)>("category"; $stack14)]
+34727, com.thoughtworks.xstream.io.json.Client, void setUp()_0, virtualinvoke $stack18.<com.thoughtworks.xstream.XStream: void alias(java.lang.String;java.lang.Class)>("product"; $stack17)
+34740, com.thoughtworks.xstream.io.json.Client, void setUp()_0 END, return
+34741, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, virtualinvoke $stack3.<com.thoughtworks.xstream.io.json.Client: void testSingletonListWithSimpleObject()>()
+34742, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack4 = new java.util.ArrayList
+34743, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, specialinvoke $stack4.<java.util.ArrayList: void <init>()>()
+34744, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, virtualinvoke $stack4.<java.util.ArrayList: boolean add(java.lang.Object)>("one")
+34745, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack6 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+34746, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, json = virtualinvoke $stack6.<com.thoughtworks.xstream.XStream: java.lang.String toXML(java.lang.Object)>($stack4)
+34747, com.thoughtworks.xstream.XStream, java.lang.String toXML(java.lang.Object)_0, stack3_{34747} = Func_9_34712({json_{34746}})
+34772, org.codehaus.jettison.mapped.MappedXMLStreamWriter, void <init>(org.codehaus.jettison.mapped.MappedNamespaceConvention;java.io.Writer)_0, this.<org.codehaus.jettison.mapped.MappedXMLStreamWriter: java.lang.String valueKey> = "$"
+39318, org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyString, org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyObject withProperty(org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONProperty;boolean)_0, stack29_{39318} = Func_11_39150({stack2_{39310}})
+39321, org.codehaus.jettison.mapped.MappedNamespaceConvention, java.lang.Object convertToJSONPrimitive(java.lang.String)_0, stack3_{39321} = Func_11_39153(set())
+39324, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_0, $stack4 = <org.codehaus.jettison.mapped.DefaultConverter: boolean ENFORCE_32BIT_INTEGER>
+39325, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_0, if $stack4 == 0 goto $stack5 = staticinvoke <java.lang.Long: java.lang.Long valueOf(java.lang.String)>(text)
+39326, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_0, $stack5 = staticinvoke <java.lang.Long: java.lang.Long valueOf(java.lang.String)>(text)
+39327, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_0, $stack6 = virtualinvoke $stack5.<java.lang.Long: long longValue()>()
+39815, com.thoughtworks.xstream.XStream, java.lang.String toXML(java.lang.Object)_0 END, stack4_{39815} = Func_12_39646({stack3_{34747}, json_{34746}})
+39816, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack8 = staticinvoke <com.thoughtworks.xstream.core.JVM: boolean is15()>()
+39832, com.thoughtworks.xstream.core.JVM, boolean is15()_2 END, stack0_{39832} = Func_13_39663({stack8_{39816}, <com.thoughtworks.xstream.core.JVM: float majorJavaVersion>_{17}})
+39833, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, if $stack8 == 0 goto $stack9 = "{\'list\':{\'string\':[\'one\']}}"
+39834, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack9 = "{\'list\':[{\'string\':\'one\'}]}"
+39835, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, goto [?= $stack10 = virtualinvoke $stack9.<java.lang.String: java.lang.String replace(char;char)>(39; 34)]
+39836, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack10 = virtualinvoke $stack9.<java.lang.String: java.lang.String replace(char;char)>(39; 34)
+39837, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, specialinvoke this.<com.thoughtworks.xstream.io.json.Client: void assertEquals(java.lang.Object;java.lang.Object)>($stack10; json)
+39838, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_0, $stack3 = virtualinvoke o1.<java.lang.Object: boolean equals(java.lang.Object)>(o2)
+39839, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_0, if $stack3 != 0 goto return
+39840, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_0 END, return
+39841, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack11 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+39842, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack12 = virtualinvoke $stack11.<com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.lang.String)>(json)
+39845, com.thoughtworks.xstream.XStream, java.lang.Object fromXML(java.lang.String)_0, stack3_{39845} = Func_14_39676({stack12_{39842}})
+40762, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, this.<org.codehaus.jettison.mapped.MappedXMLStreamReader: org.codehaus.jettison.mapped.MappedNamespaceConvention convention>_{40762} = Func_14_40593({stack12_{39842}, this.<org.codehaus.jettison.mapped.MappedXMLInputFactory: org.codehaus.jettison.mapped.MappedNamespaceConvention convention>_{2872}})
+40776, org.codehaus.jettison.json.JSONObject, java.lang.Object get(java.lang.String)_0 END, o_{40776} = Func_14_40607({stack12_{39842}})
+40803, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, $stack20 = new org.codehaus.jettison.Node
+40804, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, $stack21 = (org.codehaus.jettison.json.JSONArray) top
+40805, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, $stack23 = virtualinvoke $stack21.<org.codehaus.jettison.json.JSONArray: org.codehaus.jettison.json.JSONObject getJSONObject(int)>(0)
+40823, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, $stack24 = this.<org.codehaus.jettison.mapped.MappedXMLStreamReader: org.codehaus.jettison.mapped.MappedNamespaceConvention convention>
+40824, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, specialinvoke $stack20.<org.codehaus.jettison.Node: void <init>(org.codehaus.jettison.Node;java.lang.String;org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.Convention)>(null; rootName; $stack23; $stack24)
+40885, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, this.<org.codehaus.jettison.mapped.MappedXMLStreamReader: org.codehaus.jettison.Node node> = $stack20
+40886, org.codehaus.jettison.mapped.MappedXMLStreamReader, void <init>(org.codehaus.jettison.json.JSONObject;org.codehaus.jettison.mapped.MappedNamespaceConvention)_0, goto [?= $stack17 = this.<org.codehaus.jettison.mapped.MappedXMLStreamReader: org.codehaus.jettison.util.FastStack nodes>]
+43712, com.thoughtworks.xstream.XStream, java.lang.Object fromXML(java.lang.String)_0 END, stack3_{43712} = Func_17_43540({stack3_{39845}, stack12_{39842}})
+43713, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, list2 = (java.util.ArrayList) $stack12
+43714, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack13 = this.<com.thoughtworks.xstream.io.json.Client: com.thoughtworks.xstream.XStream xstream>
+43715, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, $stack14 = virtualinvoke $stack13.<com.thoughtworks.xstream.XStream: java.lang.String toXML(java.lang.Object)>(list2)
+43716, com.thoughtworks.xstream.XStream, java.lang.String toXML(java.lang.Object)_1, stack3_{43716} = Func_18_43544({stack14_{43715}})
+43741, org.codehaus.jettison.mapped.MappedXMLStreamWriter, void <init>(org.codehaus.jettison.mapped.MappedNamespaceConvention;java.io.Writer)_1, this.<org.codehaus.jettison.mapped.MappedXMLStreamWriter: java.lang.String valueKey> = "$"
+44653, org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyString, org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyObject withProperty(org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONProperty;boolean)_1, stack29_{44653} = Func_20_44479({stack2_{44645}})
+44656, org.codehaus.jettison.mapped.MappedNamespaceConvention, java.lang.Object convertToJSONPrimitive(java.lang.String)_1, stack3_{44656} = Func_20_44482(set())
+44659, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_1, $stack4 = <org.codehaus.jettison.mapped.DefaultConverter: boolean ENFORCE_32BIT_INTEGER>
+44660, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_1, if $stack4 == 0 goto $stack5 = staticinvoke <java.lang.Long: java.lang.Long valueOf(java.lang.String)>(text)
+44661, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_1, $stack5 = staticinvoke <java.lang.Long: java.lang.Long valueOf(java.lang.String)>(text)
+44662, org.codehaus.jettison.mapped.DefaultConverter, java.lang.Object convertToJSONPrimitive(java.lang.String)_1, $stack6 = virtualinvoke $stack5.<java.lang.Long: long longValue()>()
+45150, com.thoughtworks.xstream.XStream, java.lang.String toXML(java.lang.Object)_1 END, stack4_{45150} = Func_21_44975({stack3_{43716}, stack14_{43715}})
+45151, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0, specialinvoke this.<com.thoughtworks.xstream.io.json.Client: void assertEquals(java.lang.Object;java.lang.Object)>(json; $stack14)
+45152, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_1, $stack3 = virtualinvoke o1.<java.lang.Object: boolean equals(java.lang.Object)>(o2)
+45153, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_1, if $stack3 != 0 goto return
+45154, com.thoughtworks.xstream.io.json.Client, void assertEquals(java.lang.Object;java.lang.Object)_1 END, return
+45155, com.thoughtworks.xstream.io.json.Client, void testSingletonListWithSimpleObject()_0 END, return
+45156, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, $stack4 = <java.lang.System: java.io.PrintStream out>
+45157, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, virtualinvoke $stack4.<java.io.PrintStream: void println(java.lang.String)>("Test ran!")
+45158, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0, goto [?= return]
+45159, com.thoughtworks.xstream.io.json.Client, void main(java.lang.String[])_0 END, return
