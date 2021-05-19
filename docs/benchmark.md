@@ -5,15 +5,16 @@ nav_order: 2
 has_children: false
 permalink: /docs/benchmark
 ---
-
+## Here is the list of all clients failed after the upgrade (168 client-library pairs):
 ### [Failed Clients](../assets/AllFailedClients.xlsx)
 
+## Here is the list of libraries categorized in 8 bins (84 unique libraries):
 ### [List of Libraries and bins](../assets/Libs.xlsx)
 
 ---
 
-## The subjects (Client and Library Code):
- 
+## Here, there is a page for each subject including the client and the library GitHub links as well as the zip files of the source code for the specific versions used in the study: 
+
 ### [Subject#1 (Jettison/Xstream)](data/s1.md)
 
 ### [Subject#2 (Square-Dagger/Modelmapper)](data/s2.md)
@@ -29,4 +30,3 @@ permalink: /docs/benchmark
 ### [Subject#7 (Jackson-Databind/OpenAPI-Generator)](data/s7.md)
 
 ### [Subject#8 (Alibaba-Druid/Dble)](data/s8.md)
-

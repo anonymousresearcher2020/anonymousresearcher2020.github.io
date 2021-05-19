@@ -6,9 +6,9 @@ has_children: false
 permalink: /docs/results
 ---
 
-## The detailed information about experiment results are provided in the below.
+## The detailed information about experiment results is provided below.
+## Here, there is a page for each subject including the original traces, the textual trace summaries, and the graphical representations:
 
----
 ### [Subject#1 (Jettison/Xstream)](res/s1.md)
 
 ### [Subject#2 (Square-Dagger/Modelmapper)](res/s2.md)
@@ -24,3 +24,5 @@ permalink: /docs/results
 ### [Subject#7 (Jackson-Databind/OpenAPI-Generator)](res/s7.md)
 
 ### [Subject#8 (Alibaba-Druid/Dble)](res/s8.md)
+
+### Note, for big traces, to view pdfs with a higher resolution, please do not use browser pdf readers. 
