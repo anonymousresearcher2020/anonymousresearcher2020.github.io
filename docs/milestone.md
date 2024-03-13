@@ -11,31 +11,52 @@ permalink: /docs/milestone
 The purpose of this document is to specify the information required from students to define the project proposal (section A) as well as the initial (section B) and final (section C) requirement specifications. 
 —------------------------------—------------------------------—------------------------------—-------------------------------------
 A.	Project Proposal Assignment: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	In this assignment, each group of four students is asked to come up with two different ideas that can be implemented during the course.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Each idea must take into account the following project expectations:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	Scope:  2-3 main actors and 5-6 non-trivial requirements
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	Required features:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■	Use of an external authentication service, e.g., Google
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■	Use of at least one additional external service accessible via an API, e.g., Google calendar, Google maps, etc. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■	Real-time updates, e.g., multi-user chats, push notifications, etc.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■	Complex logic in either front-end or back-end component (i.e., something that involves an algorithm, not a simple API call or database read/update/delete)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	Implementation: Android Front-end using Java, Node.js backend
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Submission: A PDF file containing information about two project ideas.
 
 B.	Initial Requirements Lab Activity:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	In this 2-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas (P) randomly selected by a TA. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Usage of assistive AI technology is strictly prohibited.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	As per the course material, a formal requirement specification is required containing: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	A use-case diagram connecting actors to functional requirements
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	A description of each actor (1-2 sentences). 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	A list functional requirements specifying the name of the requirement, a short description, primary actor(s), success and failure scenarios, and mockups (optional).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○	A list of 2-3 non-functional requirements with an explanation of why this requirement is needed/relevant for the project and how it will be validated.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Submission: A scanned PDF file containing the formal specification in the format above.
 
 C.	Final Requirement Specification Assignment:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	In this assignment each group of students is asked to submit a formal requirement specification for both of their project ideas.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Documented usage of AI technology (namely, ChatGPT 3.5)  is required.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Each group uses the following workflow to generate the final requirements:
+
 a.	For the idea a group worked on during the lab activity (P), they start from a possibly updated project specification from the lab (P_initial), and refine it with the assistance of ChatGPT to generate the final specification (P_final). 
 b.	For the idea a group has not yet worked on (P’),  they start from the specification provided by ChatGPT and refine it to generate the final specification (P’_final).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●	Submissions: (1) A PDF file containing the formal requirement specifications P_initial, P_final, and P’_final. (2) HTML files containing ChatGPT conversations used in the process. (3) Reflections about their usage of ChatGPT.
