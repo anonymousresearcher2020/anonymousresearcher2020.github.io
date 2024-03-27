@@ -5,8 +5,7 @@ nav_order: 3
 has_children: false
 permalink: /docs/requirements
 ---
-### Requirements Quality Metric
-**Qualities of good requirements:**
+### Qualities of good requirements:
   - Requirements define what the software needs to do.
   - Requirements tell the problem, not the solution: specify what to build not how
   - The requirement engineering process is a process. Allow (and expect) requirements to change later
