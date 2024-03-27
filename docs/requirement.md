@@ -1,0 +1,40 @@
+---
+layout: default
+title: Requirements Quality Assessment
+nav_order: 3
+has_children: false
+permalink: /docs/requirements
+---
+### Requirements Quality Metric
+**Qualities of good requirements (for elicitation and analysis):**
+  - Requirements define what the software needs to do.
+  - Requirements tell the problem, not the solution: specify what to build not how
+  - The requirement engineering process is a process. Allow (and expect) requirements to change later
+  - There are two types of requirements: Functional and Non-functional
+  - Requirements should be:
+     - **Complete:** should cover all parts of the project high-level description and goals
+      - When something is part of the project descriptions and goals, there should be a use case for it. E.g., “Adding a friend can be done in one click”. What about other parts of the use case / other use cases
+      - Cover the course required requirements: 5-6 non-trivial reqs. and 4 requirements: live updates, external API, complex logic, and external authentication service.
+    - **Consistent:** should not have contradictory definitions
+      - E.g., should not use different words for the same use case, failure points should correspond to concrete steps in success scenarios
+    - **Unambiguous:** include concrete requirement description, success and failure scenarios
+    - **Focused:** defined at the right level of details (not too coarse-grained or too fine-grained)
+      - E.g., “add profile item”, “update profile item”, “delete profile item” are too fine-grained for an ecommerce application. It can be “manage profile”. Not every button click deserves to be a separate use case
+    - **Relevant** to the project at hand rather than applicable to any project
+     - E.g., “response time under 1 sec” should explain why 1 sec is applicable for this project (and not 3 or 0.5).
+    - **Feasible:** possible to implement given the time and resource constraints
+      - E.g., “the server should be available 24/7”
+    - **Verifiable/Measurable:** can define a test with a clear spec
+      - E.g., “it should perform well” is not measurable
+    - **Correctly classified:** functional requirements describe functionality that helps meet the needs of its users and stakeholders; Non-functional requirements specify criteria related to system qualities such as performance, reliability, security, and usability
+      - E.g., specifying the performance criteria the system must meet, such as response times or throughput is not a functional requirement
+      - “User should be able to log-in” is a functional rather than security requirement
+    - **Well-formatted:** appropriate notations of use case diagram, success/failure specs.
+
+—------------------------------—------------------------------—------------------------------—-------------------------
+### Requirements Quality Grading 
+
+All requirements artifacts produced by students in the course, i.e., requirement
+specifications (HA, GA, GB, FA and FB) were manually graded by two authors of this paper, who were also in the teaching staff of the course. The
+requirements were graded using a 0-5 scale assigned to each of the requirement quality attributes.
+The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% disagreement rate) were resolved with a third author, who was also involved in course instruction.
