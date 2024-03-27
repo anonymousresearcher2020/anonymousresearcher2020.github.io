@@ -6,7 +6,7 @@ has_children: false
 permalink: /docs/prompt
 ---
 ### Prompt Quality Metric
-![](./img/promptQuality.pdf)
+![](../img/promptQuality.pdf)
 
 —------------------------------—------------------------------—------------------------------—-------------------------
 ### Prompt Quality Grading 
