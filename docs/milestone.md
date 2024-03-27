@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Requirements Specification Milestones
+title: Milestone Specifications
 nav_order: 3
 has_children: false
 permalink: /docs/Milestone Setup
@@ -34,7 +34,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 
 ---
 
-## A. Project Proposal Assignment:
+## A. Project Proposal Assignment to Produce "Project Idea (I)":
 
 - In this assignment, each group of four students is asked to come up with two different ideas that can be implemented during the course.
 - Each idea must take into account the following project expectations:
@@ -48,7 +48,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 - **Submission:** A PDF file containing information about two project ideas.
 
 ---
-## B. Initial Requirements Lab Activity:
+## B. Initial Requirements Lab Activity to Produce "Initial Submission (H)":
 
 - In this 2-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas (P) randomly selected by a TA.
 - Usage of assistive AI technology is strictly prohibited.
@@ -60,7 +60,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 - **Submission:** A scanned PDF file containing the formal specification in the format above.
 
 ---
-## C. Final Requirement Specification Assignment:
+## C. Final Requirement Specification Assignment to Produce "Final submission (F)":
 
 - In this assignment each group of students is asked to submit a formal requirement specification for both of their project ideas.
 - Documented usage of AI technology (namely, ChatGPT 3.5) is required.

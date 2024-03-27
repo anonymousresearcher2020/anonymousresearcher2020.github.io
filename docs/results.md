@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aggregated Results
+title: Results
 nav_order: 5
 has_children: false
 permalink: /docs/Restuls
@@ -9,12 +9,13 @@ permalink: /docs/Restuls
 
 We present here the aggregated results for requirements and prompts. 
 Figure below shows the overall average for all artifacts. 
-![](/img/grades.pdf)
+
+![](./img/grades.pdf)
 
 —------------------------------—------------------------------—------------------------------—-------------------------
 ### Requirements Quality Results
 
-Table below shows the average score for each requirement attribute for initial submissions (denoted by H) in processes A+ and A-. 
+__Initial Submissions:__ Table below shows the average score for each requirement attribute for initial submissions (denoted by H) in processes A+ and A-. 
 
 |Req. Quality Metric|A+|A-|
 |:----|:----|:----|
@@ -29,7 +30,7 @@ Table below shows the average score for each requirement attribute for initial s
 |Well-formatted|3.9|2.6|
 |**Total Quality (H)**|**77%**|**72%**|
 
-Table below shows the average score for each requirement attribute for ChatGPT outputs (denoted by G) in processes A+, A-, and B. 
+__ChatGPT's Outputs:__ Table below shows the average score for each requirement attribute for ChatGPT's outputs (denoted by G) in processes A+, A-, and B. 
 
 | Req. Quality Metric    | A+           | A-          | B    |
 |------------------------|--------------|-------------|------|
@@ -44,7 +45,7 @@ Table below shows the average score for each requirement attribute for ChatGPT o
 | Well-formatted         | 1.6          | 0.3         | 3.5  |
 | **Total Quality (G)**              | **63%**      | **54%**     | **68%** |
 
-Table below shows the average score for each requirement attribute for final submissions (denoted by F) in processes A+, A-, and B. 
+__Final Submissions:__ Table below shows the average score for each requirement attribute for final submissions (denoted by F) in processes A+, A-, and B. 
 
 |Req. Quality Metric|A+|A-|B|
 |:----|:----|:----|:----|

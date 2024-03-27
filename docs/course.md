@@ -5,11 +5,10 @@ nav_order: 2
 has_children: false
 permalink: /docs/Course Setup
 ---
-## Course Summary
-
 ### Requirement Engineering Lecture Summaries
 
 The purpose of this document is to specify how the requirements were defined in the scope of this course and what resources students could use while interacting with ChatGPT. This is to help the reader understand what is considered a good requirement in the scope of this course and based on what information the evaluation was conducted. The topic was covered in 3 lectures, 1 lab session (initial requirement elicitation milestone), and 2 home assignments (project idea and final requirement specification milestones). Examples of good/bad requirements were provided in the lectures and the lab. Feedback was also given on the assignment. 
+
 ---
 
 - **Requirement Engineering Process:**
