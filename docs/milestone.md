@@ -60,7 +60,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 - **Submission:** A scanned PDF file containing the formal specification in the format above.
 
 ---
-#### C. Final Requirement Specification Assignment to Produce "Final submission (F)":
+### C. Final Requirement Specification Assignment to Produce "Final submission (F)":
 
 - In this assignment each group of students is asked to submit a formal requirement specification for both of their project ideas.
 - Documented usage of AI technology (namely, ChatGPT 3.5) is required.

@@ -5,7 +5,7 @@ nav_order: 3
 has_children: false
 permalink: /docs/requirements
 ---
-### Requirements Quality Metric
+### Requirements Quality Metric:
 
     - **Complete** and cover all parts of the project goals, providing sufficient information to implement the system
       - When something is part of the project descriptions and goals, there should be a use case for it. E.g., “Adding a friend can be done in one click”. What about other parts of the use case / other use cases
@@ -27,7 +27,8 @@ permalink: /docs/requirements
     - **Well-formatted,** with appropriate notations of use case diagram, success and failure scenarios, etc.
 
 ---
-### Requirements Quality Grading 
+
+### Requirements Quality Grading: 
 
 All requirements artifacts produced by students in the course, i.e., requirement
 specifications (HA, GA, GB, FA and FB) were manually graded by two authors of this paper, who were also in the teaching staff of the course. The
