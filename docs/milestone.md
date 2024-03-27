@@ -12,7 +12,7 @@ The purpose of this page is to first explain the overall process of using ChatGP
 
 ---
 
-#### Explanation of the Process
+### Explanation of the Process:
 ![](../img/overview.pdf)
 
 In an effort to embrace and utilize these advanced AI tools, students were allowed to use them throughout the course. In fact, one of the educational objectives of this course was to expose students to the advantages and disadvantages of using AI tools in SE processes. As such, throughout the course, students systematically used such tools as assistants in completing their assignments and were required to document and critically analyze these uses, identifying strengths and weaknesses of the AI tools. The analysis was submitted together with the assignments 
@@ -34,7 +34,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 
 ---
 
-#### A. Project Proposal Assignment to Produce "Project Idea (I)":
+### A. Project Proposal Assignment to Produce "Project Idea (I)":
 
 - In this assignment, each group of four students is asked to come up with two different ideas that can be implemented during the course.
 - Each idea must take into account the following project expectations:
@@ -48,7 +48,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 - **Submission:** A PDF file containing information about two project ideas.
 
 ---
-#### B. Initial Requirements Lab Activity to Produce "Initial Submission (H)":
+### B. Initial Requirements Lab Activity to Produce "Initial Submission (H)":
 
 - In this 2-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas (P) randomly selected by a TA.
 - Usage of assistive AI technology is strictly prohibited.

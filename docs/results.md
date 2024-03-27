@@ -12,8 +12,9 @@ Figure below shows the overall average for all artifacts.
 
 ![](../img/grades.pdf)
 
-—------------------------------—------------------------------—------------------------------—-------------------------
-### Requirements Quality Results
+---
+
+### Requirements Quality Results:
 
 __Initial Submissions:__ Table below shows the average score for each requirement attribute for initial submissions (denoted by H) in processes A+ and A-. 
 
@@ -61,8 +62,9 @@ __Final Submissions:__ Table below shows the average score for each requirement 
 |**Total Quality (F)**|**82%**|**75%**|**77%**|
 
 
-—------------------------------—------------------------------—------------------------------—-------------------------
-### Prompt Quality Results 
+---
+
+### Prompt Quality Results:
 
 Table below shows the average score for each prompt quality metric in processes A+, A-, and B. 
 

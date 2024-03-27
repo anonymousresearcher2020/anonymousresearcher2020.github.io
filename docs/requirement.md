@@ -5,13 +5,9 @@ nav_order: 3
 has_children: false
 permalink: /docs/requirements
 ---
-### Qualities of good requirements:
-  - Requirements define what the software needs to do.
-  - Requirements tell the problem, not the solution: specify what to build not how
-  - The requirement engineering process is a process. Allow (and expect) requirements to change later
-  - There are two types of requirements: Functional and Non-functional
-  - Requirements should be:
-     - **Complete** and cover all parts of the project goals, providing sufficient information to implement the system
+### Requirements Quality Metric
+
+    - **Complete** and cover all parts of the project goals, providing sufficient information to implement the system
       - When something is part of the project descriptions and goals, there should be a use case for it. E.g., “Adding a friend can be done in one click”. What about other parts of the use case / other use cases
       - Cover the course required requirements: 5-6 non-trivial requirements and 4 components: live updates, external API, complex logic, and external authentication service.
     - **Consistent,** without having contradictory definitions across multiple requirements.
@@ -30,7 +26,7 @@ permalink: /docs/requirements
       - “User should be able to log-in” is a functional rather than security requirement
     - **Well-formatted,** with appropriate notations of use case diagram, success and failure scenarios, etc.
 
-—------------------------------—------------------------------—------------------------------—-------------------------
+---
 ### Requirements Quality Grading 
 
 All requirements artifacts produced by students in the course, i.e., requirement
