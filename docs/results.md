@@ -79,4 +79,4 @@ Table below shows the average score for each prompt quality metric in processes 
 | Examples              | 0.2         | 0          | 0.3  |
 | **Total of "How to ask"** | **38**  | **24**     | **49** |
 | What to ask           | 4           | 3.6        | 3.9 |
-| **Total Quality**     | **30**      | **17**     | **38** |
+| **Total Quality**     | **30%**      | **17%**     | **38%** |
