@@ -50,7 +50,7 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 ---
 ### B. Initial Requirements Lab Activity to Produce "Initial Submission (H)":
 
-- In this 2-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas (P) randomly selected by a TA.
+- In this 1.5-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas (P) randomly selected by a TA.
 - Usage of assistive AI technology is strictly prohibited.
 - As per the course material, a formal requirement specification is required containing:
   - A use-case diagram connecting actors to functional requirements
