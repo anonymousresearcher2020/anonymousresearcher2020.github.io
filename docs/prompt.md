@@ -7,7 +7,7 @@ permalink: /docs/prompt
 ---
 ### Prompt Quality Metric:
 
-![](../img/promptQuality.pdf)
+<img src="../img/promptQuality.pdf" />
 
 ---
 
