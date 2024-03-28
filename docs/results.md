@@ -10,7 +10,7 @@ permalink: /docs/Restuls
 We present here the aggregated results for requirements and prompts. 
 Figure below shows the overall average for all artifacts. 
 
-![image](../img/grades.jpg)
+![image](../img/grades.png)
 
 ---
 
