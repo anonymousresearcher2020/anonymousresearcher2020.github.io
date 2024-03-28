@@ -13,7 +13,7 @@ The purpose of this page is to first explain the overall process of using ChatGP
 ---
 
 ### Explanation of the Process:
-![image](../img/overview.png)
+![image](../img/overview.jpg)
 
 In an effort to embrace and utilize these advanced AI tools, students were allowed to use them throughout the course. In fact, one of the educational objectives of this course was to expose students to the advantages and disadvantages of using AI tools in SE processes. As such, throughout the course, students systematically used such tools as assistants in completing their assignments and were required to document and critically analyze these uses, identifying strengths and weaknesses of the AI tools. The analysis was submitted together with the assignments.  
 
