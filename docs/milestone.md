@@ -8,10 +8,18 @@ permalink: /docs/Milestone Setup
 
 ### Requirement Engineering Milestone Summaries
 
-The purpose of this page is to first explain the overall process of using ChatGPT in the requirement engineering process of this course. Next we specify the information required from students to define the project proposal (section A) as well as the initial (section B) and final (section C) requirement specifications.
+The purpose of this page is to first explain the overall process of using ChatGPT in the requirement engineering process of this course. Next we specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
 
 ---
+### [I. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
 
+---
+### [II. Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
+
+---
+### [III. Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)
+
+---
 ### Explanation of the Process:
 ![image](../img/overview.jpg)
 
@@ -32,15 +40,4 @@ As the last step in this process, students were asked to produce and submit thei
 
 Finally, students repeated the process from idea B (lower part of Figure above). Unlike in process A, they interacted with ChatGPT immediately, without a preliminary session to produce their requirements specifications. We refer to artifacts produced in this process as PB (for ChatGPT conversations), GB (for the requirement specializations produced through this interaction), and B (for the final submission of requirements specifications of idea B, which was graded in the scope of the course).
 
----
 
-### [A. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
-
----
-### [B. Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
-
----
-### [C. Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)
-
-
- 
