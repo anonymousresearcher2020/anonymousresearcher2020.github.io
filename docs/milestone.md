@@ -34,13 +34,13 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 
 ---
 
-### [A. Project Proposal Assignment to Produce "Project Idea (I)"] (data/M1_Project_Ideas.pdf) 
+### [A. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
 
 ---
-### [B. Initial Requirements Lab Activity to Produce "Initial Submission (H)"] (data/M2A_Requirements.pdf)
+### [B. Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
 
 ---
-### [C. Final Requirement Specification Assignment to Produce "Final submission (F)"] (data/M2B_Requirements.pdf)
+### [C. Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)
 
 
  
