@@ -8,7 +8,8 @@ permalink: /docs/Milestone Setup
 
 ### Requirement Engineering Milestone Summaries
 
-The purpose of this page is to first explain the overall process of using ChatGPT in the requirement engineering process of this course. Next we specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
+The purpose of this page is to first specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
+Next, we explain the overall process of using ChatGPT in the requirement engineering process of this course.
 
 ---
 ### [I. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
@@ -21,7 +22,7 @@ The purpose of this page is to first explain the overall process of using ChatGP
 
 ---
 ### Explanation of the Process:
-![image](../img/overview.jpg)
+![image](../img/overview.png)
 
 In an effort to embrace and utilize these advanced AI tools, students were allowed to use them throughout the course. In fact, one of the educational objectives of this course was to expose students to the advantages and disadvantages of using AI tools in SE processes. As such, throughout the course, students systematically used such tools as assistants in completing their assignments and were required to document and critically analyze these uses, identifying strengths and weaknesses of the AI tools. The analysis was submitted together with the assignments.  
 
