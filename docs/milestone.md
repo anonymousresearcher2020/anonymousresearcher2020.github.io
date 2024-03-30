@@ -34,42 +34,13 @@ Finally, students repeated the process from idea B (lower part of Figure above).
 
 ---
 
-### A. Project Proposal Assignment to Produce "Project Idea (I)":
-
-- In this assignment, each group of four students is asked to come up with two different ideas that can be implemented during the course.
-- Each idea must take into account the following project expectations:
-  - **Scope:** 2-3 main actors and 5-6 non-trivial requirements
-  - **Required features:**
-    - Use of an external authentication service, e.g., Google
-    - Use of at least one additional external service accessible via an API, e.g., Google calendar, Google maps, etc.
-    - Real-time updates, e.g., multi-user chats, push notifications, etc.
-    - Complex logic in either front-end or back-end component (i.e., something that involves an algorithm, not a simple API call or database read/update/delete)
-  - **Implementation:** Android Front-end using Java, Node.js backend
-- **Submission:** A PDF file containing information about two project ideas.
+### [A. Project Proposal Assignment to Produce "Project Idea (I)"] (data/M1_Project_Ideas.pdf) 
 
 ---
-### B. Initial Requirements Lab Activity to Produce "Initial Submission (H)":
-
-- In this 1.5-hour long lab activity, each group of students works on the requirement specifications of one of their project ideas randomly selected by a TA.
-- Usage of assistive AI technology is strictly prohibited.
-- As per the course material, a formal requirement specification is required containing:
-  - A use-case diagram connecting actors to functional requirements
-  - A description of each actor (1-2 sentences).
-  - A list functional requirements specifying the name of the requirement, a short description, primary actor(s), success and failure scenarios, and mockups (optional).
-  - A list of 2-3 non-functional requirements with an explanation of why this requirement is needed/relevant for the project and how it will be validated.
-- **Submission:** A scanned PDF file containing the formal specification in the format above.
+### [B. Initial Requirements Lab Activity to Produce "Initial Submission (H)"] (data/M2A_Requirements.pdf)
 
 ---
-### C. Final Requirement Specification Assignment to Produce "Final submission (F)":
+### [C. Final Requirement Specification Assignment to Produce "Final submission (F)"] (data/M2B_Requirements.pdf)
 
-- In this assignment each group of students is asked to submit a formal requirement specification for both of their project ideas.
-- Documented usage of AI technology (namely, ChatGPT 3.5) is required.
-- Each group uses the following workflow to generate the final requirements:
-  - For the idea a group worked on during the lab activity (A), they start from a possibly updated project specification from the lab (A_initial), and refine it with the assistance of ChatGPT to generate the final specification (A_final).
-  - For the idea a group has not yet worked on (B), they start from the specification provided by ChatGPT and refine it to generate the final specification (B_final).
-- **Submissions:** 
-  - 1. A PDF file containing the formal requirement specifications A_initial, A_final, and B_final.
-  - 2. HTML files containing ChatGPT conversations used in the process.
-  - 3. Reflections about their usage of ChatGPT.
 
  

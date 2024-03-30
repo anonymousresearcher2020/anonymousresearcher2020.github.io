@@ -9,5 +9,5 @@ permalink: /docs/caseStudy
 
 We provide the templates of optimal prompts we used for performing case studies for each process A and B. We cannot share ChatGPT conversations with raw student project data for confidentiality reasons.
 
-- ##### [Process A](../assets/data/A.pdf)
-- ##### [Process B](../assets/data/B.pdf)
+- ##### [Process A](data/Prompts-ProcessA.pdf)
+- ##### [Process B](data/Prompts-ProcessB.pdf)
