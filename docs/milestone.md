@@ -8,7 +8,7 @@ permalink: /docs/Milestone Setup
 
 ### Requirement Engineering Milestone Summaries
 
-The purpose of this page is to first specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
+The purpose of this page is to specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
 
 ---
 ### [I. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
