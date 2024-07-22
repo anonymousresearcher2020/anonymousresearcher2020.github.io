@@ -11,7 +11,7 @@ We provide here the most prominent observations reported by the students in thei
 For each reported observation, we show the number of groups (out of 20) that mentioned that observation in their reflections.
 
 ### Advantages
-![image](../img/reflection-adv.jpg)
+<img src="../img/reflection-adv.jpg" alt="Advantages" width="400" height="200">
 
 ### Disadvantages
-![image](../img/reflection-dis.jpg)
+<img src="../img/reflection-dis.jpg" alt="Disadvantages" width="400" height="200">
