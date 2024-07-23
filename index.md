@@ -14,7 +14,7 @@ This paper reports on the results of our experience integrating a conversational
 
 We specifically focus on the first phase of the project development: scoping the work and defining the project requirements. Our experience shows that students can achieve comparable results using a variety of ChatGPT interaction modes and the success of a mode largely depends on students’ preferences and learning styles. We also device a set of attribute and a quantitative metric for assessing the quality of ChatGPT prompts for this (and similar) tasks and assess the effort required to craft a high-quality prompt. Our results show that, with moderate effort, students can produce artifacts of around 80% quality level; moving to the 90% and above range requires substantial effort and investment in brainstorming and initial requirement specification drafts, crafting high-quality prompts, and critically assessing ChatGPT’s output.
 
-<!-- ![image](/img/overview.png) -->
-<img src="../img/overview.png" alt="overview" width="1674" height="604">
+![image](/img/overview.jpg)
+<!-- <img src="../img/overview.jpg" alt="overview" width="1674" height="604"> -->
 
 This website contains the course setup, the requirement milestone descriptions, the aggregated statistical data collected from student projects, and all data we used in our case studies available for reproduction and to inspire further research in this area. 
