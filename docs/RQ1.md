@@ -5,6 +5,10 @@ nav_order: 5
 has_children: false
 permalink: /docs/RQ1
 ---
+
+The raw data obtained in this study cannot be shared because of privacy issues. 
+
+---
 ### Aggregated Results
 
 We present here the aggregated results for requirements and prompts. 
