@@ -10,15 +10,14 @@ permalink: /docs/RQ3
 We provide here the most prominent observations reported by the students in their own reflection on using ChatGPT for the requirement engineering task.
 For each reported observation, we show the number of groups (out of 20) that mentioned that observation in their reflections.
 
-### Advantages and Disadvantages
 <div style="display: flex; justify-content: space-between;">
     <div>
         <h3>Advantages</h3>
-        <img src="../img/reflection-adv.jpg" alt="Advantages" width="325" height="226">
+        <img src="../img/reflection-adv.jpg" alt="Advantages" width="300" height="200">
     </div>
     <div>
         <h3>Disadvantages</h3>
-        <img src="../img/reflection-dis.jpg" alt="Disadvantages" width="325" height="226">
+        <img src="../img/reflection-dis.jpg" alt="Disadvantages" width="300" height="200">
     </div>
 </div>
 
