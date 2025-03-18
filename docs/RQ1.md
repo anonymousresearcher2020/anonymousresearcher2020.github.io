@@ -6,7 +6,7 @@ has_children: false
 permalink: /docs/RQ1
 ---
 
-The raw data obtained in this study cannot be shared because of privacy issues. 
+### The raw data obtained in this study cannot be shared because of privacy issues. 
 
 ---
 ### Aggregated Results
