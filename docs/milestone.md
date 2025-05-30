@@ -3,7 +3,7 @@ layout: default
 title: Milestone Specifications
 nav_order: 3
 has_children: false
-permalink: /docs/Milestone Setup
+permalink: /docs/milestone_setup
 ---
 
 ### Requirement Engineering Milestone Summaries

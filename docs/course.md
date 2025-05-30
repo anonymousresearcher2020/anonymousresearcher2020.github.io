@@ -3,7 +3,7 @@ layout: default
 title: Course Summary
 nav_order: 2
 has_children: false
-permalink: /docs/Course Setup
+permalink: /docs/course_setup
 ---
 ### Requirement Engineering Lecture Summaries
 
