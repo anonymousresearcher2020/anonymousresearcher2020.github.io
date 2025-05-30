@@ -3,7 +3,7 @@ layout: default
 title: Artifacts Assessment 
 nav_order: 4
 has_children: false
-permalink: /docs/assessment_rubric
+permalink: /docs/assessment
 ---
 ### Requirements Quality Metric:
 
