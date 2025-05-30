@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Additional Artifact Assessment Data (RQ1)
+title: Process A vs. B (RQ1) 
 nav_order: 5
 has_children: false
 permalink: /docs/assessment_data
 ---
 
-### The raw data obtained in this study cannot be shared because of privacy issues. 
+Here we provide supplementary data supporting RQ1 results. 
 
 ---
 
@@ -76,3 +76,8 @@ Table below shows the average score for each prompt quality metric in processes 
 | **Total of "How to ask"** | **38**  | **24**     | **49** |
 | What to ask           | 4           | 3.6        | 3.9 |
 | **Total Quality**     | **30%**      | **17%**     | **38%** |
+
+
+---
+
+### The raw data obtained in this study cannot be shared because of privacy issues. 

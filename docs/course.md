@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Course Summary
+title: Course Setup
 nav_order: 2
 has_children: false
 permalink: /docs/course_setup
 ---
-### Requirement Engineering Lecture Summaries
 
-The purpose of this document is to specify how the requirements were defined in the scope of this course and what resources students could use while interacting with ChatGPT. This is to help the reader understand what is considered a good requirement in the scope of this course and based on what information the evaluation was conducted. The topic was covered in 3 lectures, 1 lab session (initial requirement elicitation milestone), and 2 home assignments (project idea and final requirement specification milestones). Examples of good/bad requirements were provided in the lectures and the lab. Feedback was also given on the assignment. 
+The purpose of this document is to specify how the requirements were defined in the scope of this course and what resources students could use while interacting with ChatGPT. This is to help the reader understand what is considered a good requirement in the scope of this course and based on what information the evaluation was conducted. The topic was covered in 3 lectures, 1 lab session (initial requirement elicitation milestone), and 2 home assignments (project idea and final requirement specification milestones). Examples of good/bad requirements were provided in the lectures and the lab. Feedback was also given on the assignment.
 
 ---
+
+We now specify how the requirements were defined in the scope of this course. The requirements topic was covered in three lectures and two lab sessions. There were two requirements milestones (project idea and final requirement specifications) and an in-lab work (initial submission).
+
+
+### Requirements
 
 - **Requirement Engineering Process:**
   - In this milestone, we focused on requirements elicitation, analysis, specification (not validation and maintenance).
@@ -35,3 +39,17 @@ The purpose of this document is to specify how the requirements were defined in 
   - Describe system properties and constraints as a whole. Specify acceptance criteria related to system qualities such as performance, reliability, and usability.
     - Performance, safety, security, scalability, dependability, reusability, portability
     - Specification of each requirement includes: Textual description, Justification (why needed), and Validation approach (how to confirm).
+
+
+---
+
+### Milestone
+
+The purpose of this page is to specify the information required from students to define the project proposal as well as the initial and final requirement specifications.
+
+
+- ##### [Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
+
+- ##### [Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
+
+- ##### [Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Additional Usage Data 
+title: Usage Data (RQ3)
 nav_order: 7
 has_children: false
 permalink: /docs/usage_data
