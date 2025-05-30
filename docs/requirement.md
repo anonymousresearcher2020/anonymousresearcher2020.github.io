@@ -35,9 +35,7 @@ specifications (HA, GA, GB, FA and FB) were manually graded by two authors of th
 requirements were graded using a 0-5 scale assigned to each of the requirement quality attributes.
 The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% disagreement rate) were resolved with a third author, who was also involved in course instruction.
 
----
-
-We have provided the complete rubric in the file linked below: 
+The complete rubric is linked below: 
 
 - ##### [Requirement Grading Rubric](data/RequirementsandPromptRubric.xlsx)
 

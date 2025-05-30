@@ -8,13 +8,11 @@ permalink: /docs/Milestone Setup
 
 ### Requirement Engineering Milestone Summaries
 
-The purpose of this page is to specify the information required from students to define the project proposal (Section I) as well as the initial (Section II) and final (Section III) requirement specifications.
+The purpose of this page is to specify the information required from students to define the project proposal as well as the initial and final requirement specifications.
 
----
-### [I. Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
 
----
-### [II. Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
+- ##### [Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
 
----
-### [III. Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)
+- ##### [Initial Requirements Lab Activity to Produce "Initial Submission (H)"](data/M2A_Requirements.pdf)
+
+- ##### [Final Requirement Specification Assignment to Produce "Final submission (F)"](data/M2B_Requirements.pdf)
