@@ -40,7 +40,7 @@ We now specify how the requirements were defined in the scope of this course. Th
 
 ---
 
-### Milestone
+### Milestones
 
 
 - ##### [Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
