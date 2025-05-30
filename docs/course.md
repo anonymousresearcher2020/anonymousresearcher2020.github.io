@@ -6,12 +6,9 @@ has_children: false
 permalink: /docs/course_setup
 ---
 
-The purpose of this document is to specify how the requirements were defined in the scope of this course and what resources students could use while interacting with ChatGPT. This is to help the reader understand what is considered a good requirement in the scope of this course and based on what information the evaluation was conducted. The topic was covered in 3 lectures, 1 lab session (initial requirement elicitation milestone), and 2 home assignments (project idea and final requirement specification milestones). Examples of good/bad requirements were provided in the lectures and the lab. Feedback was also given on the assignment.
-
----
-
 We now specify how the requirements were defined in the scope of this course. The requirements topic was covered in three lectures and two lab sessions. There were two requirements milestones (project idea and final requirement specifications) and an in-lab work (initial submission).
 
+---
 
 ### Requirements
 
@@ -44,8 +41,6 @@ We now specify how the requirements were defined in the scope of this course. Th
 ---
 
 ### Milestone
-
-The purpose of this page is to specify the information required from students to define the project proposal as well as the initial and final requirement specifications.
 
 
 - ##### [Project Proposal Assignment to Produce "Project Idea (I)"](data/M1_Project_Ideas.pdf) 
