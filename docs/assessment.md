@@ -5,7 +5,8 @@ nav_order: 4
 has_children: false
 permalink: /docs/assessment
 ---
-### Requirements Quality Metric:
+
+### Requirements Quality Attributes:
 
 - **Complete** and cover all parts of the project goals, providing sufficient information to implement the system
     - When something is part of the project descriptions and goals, there should be a use case for it. E.g., “Adding a friend can be done in one click”. What about other parts of the use case / other use cases
@@ -28,37 +29,32 @@ permalink: /docs/assessment
 
 ---
 
-### Prompts Quality Metric:
+### Prompts Quality Attributes:
 
 <!-- ![image](../img/promptQuality.jpg) -->
 <img src="../img/promptQuality.jpg" alt="prompts" width="500" height="422">
 
 ---
 
-### Grading Process and Rubrics: 
+### Assessment Methodology
 
+Both artifacts (requirements specifications and ChatGPT prompts) were assessed using a similar methodology. 
 The complete rubric is linked below: 
 
-- ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx)
+- ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx).
 
-The file includes two tabs, “Requirements Rubric” and Prompt Rubric”. 
-
-Explain the tabs. 
-
-The "Requirements Rubric" tab lists attributes used for grading the chatgpt conversations. 
-Each meta-row corresponds to an evaluation attribute, and each row inside the metarow presents concrete issues encountered during artifact evaluation.
+The file includes two tabs, “Requirements Rubric” and "Prompt Rubric” corresponding to the two types of artifacts. 
+Each super-row corresponds to an evaluation attribute, and each row inside the super-row presents concrete issues encountered during artifact evaluation.
 For grading, a "severity" score from 0 to 3 is assigned for each concrete issue (0: absent, 1: rare, 2: moderate, 3: abundant). 
-Then, the aggregate score (0-5) for each attribute is computed by translating the total sum of severity scores to the likert scale using the conversion criteria mentioned under the column "Conversion".
-Finally, the scores from different attributes are aggregated as the weighted average of each attribute. The weights used for each attribute are presented in the column "Weight".
-Note that completeness is given higher weight across all categories/artifacts as missing/incomplete information reduces the likelihood of seeing other issues; thus, is more important.
-The final weighted average score is shown in the column "Weighted. Avg".
+Then, the aggregate score (0-5) for each attribute is computed by translating the total sum of severity scores to the Likert scale (0-5) using the conversion criteria mentioned under the column "Conversion".
+Finally, the scores from different attributes are aggregated as the weighted average of attribute scores.
+The weights used for each attribute are presented in the column "Weight".
+Note that completeness is given higher weight across all artifacts as missing/incomplete information reduces the likelihood of seeing other issues, making it a more important attribute.
+The weighted average score corresponds to the column "Weighted. Avg".
+For requirements specifications, this weighted average corresponds to final score assigned to the deliverable.
+For prompts, these scores are further combined across categories through simple averaging to compute the final score of the artifact.
 
 
-All requirements artifacts produced by students in the course, i.e., requirement
-specifications (HA, GA, GB, FA and FB) were manually graded by two authors of this paper, who were also in the teaching staff of the course. The
-requirements were graded using a 0-5 scale assigned to each of the requirement quality attributes.
-The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% disagreement rate) were resolved with a third author, who was also involved in course instruction.
-
-All artifacts produced by students in the course, i.e., prompts (PA and PB), were manually graded by two authors of this paper, who were also in the teaching staff of the course. We assigned 0-5 scale for the quality attributes of the metric. The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (6% disagreement rate) were resolved with a third author, who was also involved in course instruction.
-
-
+All artifacts produced by students in the course, i.e., requirement
+specifications (HA, GA, GB, FA and FB) and ChatGPT prompts (PA and PB) were manually graded by two authors of this paper, who were also in the teaching staff of the course.
+For the aggregated 0-5 scale assigned for each quality attribute, a score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor issues, 3 means “mostly satisfactory but moderate-level of issue”, 2 means “major issues, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% for requirements and 6% for prompts) were resolved with a third author, who was also involved in course instruction.
