@@ -47,6 +47,7 @@ The file includes two tabs, “Requirements Rubric” and "Prompt Rubric” corr
 Each super-row corresponds to an evaluation attribute, and each row inside the super-row presents concrete issues encountered during artifact evaluation.
 For grading, a "severity" score from 0 to 3 is assigned for each concrete issue (0: absent, 1: rare, 2: moderate, 3: abundant). 
 Then, the aggregate score (0-5) for each attribute is computed by translating the total sum of severity scores to the Likert scale (0-5) using the conversion criteria mentioned under the column "Conversion".
+A score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor issues, 3 means “mostly satisfactory but moderate-level of issue”, 2 means “major issues, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”.
 Finally, the scores from different attributes are aggregated as the weighted average of attribute scores.
 The weights used for each attribute are presented in the column "Weight".
 Note that completeness is given higher weight across all artifacts as missing/incomplete information reduces the likelihood of seeing other issues, making it a more important attribute.
@@ -57,4 +58,4 @@ For prompts, these scores are further combined across categories through simple 
 
 All artifacts produced by students in the course, i.e., requirement
 specifications (HA, GA, GB, FA and FB) and ChatGPT prompts (PA and PB) were manually graded by two authors of this paper, who were also in the teaching staff of the course.
-For the aggregated 0-5 scale assigned for each quality attribute, a score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor issues, 3 means “mostly satisfactory but moderate-level of issue”, 2 means “major issues, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% for requirements and 6% for prompts) were resolved with a third author, who was also involved in course instruction.
+The graders cross-validated their marks and all disagreement (5% for requirements and 6% for prompts) were resolved with a third author, who was also involved in course instruction.
