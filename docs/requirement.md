@@ -39,7 +39,7 @@ The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory bu
 
 We have provided the complete rubric in the file linked below: 
 
-- #### [Prompt Grading Rubric](data/RequirementsandPromptRubric.xlsx)
+- ##### [Prompt Grading Rubric](data/RequirementsandPromptRubric.xlsx)
 
 The "Requirements Rubric" tab lists attributes used for grading the chatgpt conversations. 
 Each meta-row corresponds to an evaluation attribute, and each row inside the metarow presents concrete issues encountered during artifact evaluation.
