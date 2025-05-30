@@ -1,21 +1,12 @@
 ---
 layout: default
-title: RQ1-Process A vs. B
-nav_order: 6
+title: Additional Artifact Assessment Data (RQ1)
+nav_order: 5
 has_children: false
-permalink: /docs/RQ1
+permalink: /docs/assessment_data
 ---
 
 ### The raw data obtained in this study cannot be shared because of privacy issues. 
-
----
-### Aggregated Results
-
-We present here the aggregated results for requirements and prompts. 
-Figure below shows the overall average for all artifacts. 
-
-![image](../img/grades.jpg)
-<!-- <img src="../img/grades.jpg" alt="grades" width="1009" height="548"> -->
 
 ---
 

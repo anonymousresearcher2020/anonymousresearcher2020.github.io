@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Requirements Assessment
-nav_order: 3
+title: Artifacts Assessment 
+nav_order: 4
 has_children: false
-permalink: /docs/requirements
+permalink: /docs/assessment_rubric
 ---
 ### Requirements Quality Metric:
 
@@ -28,16 +28,22 @@ permalink: /docs/requirements
 
 ---
 
-### Requirements Quality Grading: 
+### Prompts Quality Metric:
 
-All requirements artifacts produced by students in the course, i.e., requirement
-specifications (HA, GA, GB, FA and FB) were manually graded by two authors of this paper, who were also in the teaching staff of the course. The
-requirements were graded using a 0-5 scale assigned to each of the requirement quality attributes.
-The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% disagreement rate) were resolved with a third author, who was also involved in course instruction.
+<!-- ![image](../img/promptQuality.jpg) -->
+<img src="../img/promptQuality.jpg" alt="prompts" width="500" height="422">
+
+---
+
+### Grading Process and Rubrics: 
 
 The complete rubric is linked below: 
 
-- ##### [Requirement Grading Rubric](data/RequirementsandPromptRubric.xlsx)
+- ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx)
+
+The file includes two tabs, “Requirements Rubric” and Prompt Rubric”. 
+
+Explain the tabs. 
 
 The "Requirements Rubric" tab lists attributes used for grading the chatgpt conversations. 
 Each meta-row corresponds to an evaluation attribute, and each row inside the metarow presents concrete issues encountered during artifact evaluation.
@@ -46,3 +52,13 @@ Then, the aggregate score (0-5) for each attribute is computed by translating th
 Finally, the scores from different attributes are aggregated as the weighted average of each attribute. The weights used for each attribute are presented in the column "Weight".
 Note that completeness is given higher weight across all categories/artifacts as missing/incomplete information reduces the likelihood of seeing other issues; thus, is more important.
 The final weighted average score is shown in the column "Weighted. Avg".
+
+
+All requirements artifacts produced by students in the course, i.e., requirement
+specifications (HA, GA, GB, FA and FB) were manually graded by two authors of this paper, who were also in the teaching staff of the course. The
+requirements were graded using a 0-5 scale assigned to each of the requirement quality attributes.
+The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (5% disagreement rate) were resolved with a third author, who was also involved in course instruction.
+
+All artifacts produced by students in the course, i.e., prompts (PA and PB), were manually graded by two authors of this paper, who were also in the teaching staff of the course. We assigned 0-5 scale for the quality attributes of the metric. The score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor details missing”, 3 means “mostly satisfactory but moderate-level of details missing”, 2 means “major details missing”, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”. The graders cross-validated their marks and all disagreement (6% disagreement rate) were resolved with a third author, who was also involved in course instruction.
+
+

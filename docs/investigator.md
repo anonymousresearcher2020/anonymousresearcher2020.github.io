@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Investigator Data
-nav_order: 5
+title: Investigator Data (RQ2)
+nav_order: 6
 has_children: false
-permalink: /docs/investigator
+permalink: /docs/investigator_data
 ---
 ### Prompt Templates
 
