@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RQ1-Process A vs. B
-nav_order: 5
+nav_order: 6
 has_children: false
 permalink: /docs/RQ1
 ---

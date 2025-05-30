@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RQ3-Usage Patterns
-nav_order: 7
+nav_order: 8
 has_children: false
 permalink: /docs/RQ3
 ---
