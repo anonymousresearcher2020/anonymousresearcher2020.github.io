@@ -17,7 +17,7 @@ All artifacts produced by students in the course, i.e., prompts (PA and PB), wer
 
 We have provided the complete rubric in the file linked below: 
 
-- ##### [Prompt Grading Rubric](data/RequirementsandPromptRubric.xlsx)
+- #### [Prompt Grading Rubric](data/RequirementsandPromptRubric.xlsx)
 
 The “Prompt Rubric" tab lists attributes used for grading the chatgpt conversations. 
 Each meta-row represents a high-level attribute, and each row within it corresponds to one of four quality dimensions: Complete, Clear, Relevant, and Focused.
