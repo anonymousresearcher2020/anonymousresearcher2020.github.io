@@ -14,9 +14,9 @@ We now specify how the requirements were defined in the scope of this course. Th
 
 - **Requirement Engineering Process:**
   - In this milestone, we focused on requirements elicitation, analysis, specification (not validation and maintenance).
-    - **Elicitation:** researching and discovering the requirements of a system from users, customers, and other stakeholders. Think about why users want to do something in your app, not just what.
-    - **Analysis:** critically assessing, refining, and modifying the gathered requirements
-    - **Specification:** documenting the elicited requirements in a formal manner to ensure clarity, consistency, and completeness.
+    - Elicitation: researching and discovering the requirements of a system from users, customers, and other stakeholders. Think about why users want to do something in your app, not just what.
+    - Analysis: critically assessing, refining, and modifying the gathered requirements
+    - Specification: documenting the elicited requirements in a formal manner to ensure clarity, consistency, and completeness.
 
 - **Functional Requirements:**
   - Describe the system functionality, i.e., what it should do.
