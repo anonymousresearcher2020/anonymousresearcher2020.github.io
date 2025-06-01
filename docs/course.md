@@ -20,13 +20,13 @@ We now specify how the requirements were defined in the scope of this course. Th
 
 - **Functional Requirements:**
   - Describe the system functionality, i.e., what it should do.
-    - The use case diagram provides a graphical representation of the system’s intended interactions with its environment and users, making the system’s functionality more understandable. It is used to communicate what a system is intended to accomplish:
-      - **Actors:** people, devices, or other systems interact with the system and are external to the system itself.
-      - **Use cases:** behavior of the software that meets the user’s need and describe all possible interactions with the system, represented by verbs
-      - **Line associations:** connect an actor to a use case in which that actor participates
-      - **Relationship between actors:** Generalization
-      - **Relationship between use cases:** Generalization, Include, and Exclude
-    - The formal requirement specification is the final product that is used to document the requirements in both a graphical and textual format.
+    - The **use case** diagram provides a graphical representation of the system’s intended interactions with its environment and users, making the system’s functionality more understandable. It is used to communicate what a system is intended to accomplish:
+      - Actors: people, devices, or other systems interact with the system and are external to the system itself.
+      - Use cases: behavior of the software that meets the user’s need and describe all possible interactions with the system, represented by verbs
+      - Line associations: connect an actor to a use case in which that actor participates
+      - Relationship between actors: Generalization
+      - Relationship between use cases: Generalization, Include, and Exclude
+    - The **formal requirement specification** is the final product that is used to document the requirements in both a graphical and textual format.
       - The lightweight use case specification of each requirement includes:
         - Name, Short description, and Primary Actor(s)
         - Success Scenarios: normal flow of events in the system. People can relate to these more readily than abstract statements of what they require from a system
