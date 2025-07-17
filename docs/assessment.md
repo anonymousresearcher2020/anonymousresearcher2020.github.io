@@ -47,13 +47,20 @@ Both artifacts (requirements specifications and ChatGPT prompts) were assessed u
 
 - ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx).
 
-The file includes two tabs, “Requirements Rubric” and "Prompt Rubric” corresponding to the two types of artifacts. 
+The file includes four tabs, "Course-defined Req. Components", "Requirements Rubric", “Prompt Rubric - How to Ask (H)” and "Prompt Rubric - What to Ask (W)”. 
 
-Each super-row corresponds to an evaluation attribute, and each row inside the super-row presents concrete issues encountered during artifact evaluation.
-For grading, a "severity" score from 0 to 3 is assigned for each concrete issue (0: absent, 1: rare, 2: moderate, 3: abundant). 
-Then, the aggregate score (0-5) for each attribute is computed by translating the total sum of severity scores to the Likert scale (0-5) using the conversion criteria mentioned under the column "Conversion".
-A score of 5 means “fully satisfactory”, 4 means “mostly satisfactory but minor issues, 3 means “mostly satisfactory but moderate-level of issue”, 2 means “major issues, 1 means “minimal attempt”, and 0 means “fully unsatisfactory”.
+The first tab lists six requirements components, i.e., actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
+
+The second tab corresponds to requirements quality attributes. 
+Each super-row presents a specific quality attribute,
+and each row inside the super-row lists concrete issues, such as missing or incomplete descriptions, logical or factual errors, and more, identified during artifact evaluation.
+Each issue is assigned a severity level from 0 – absent, to 1 – rare, 2 – moderate, 3 – abundant. Severity ranks are then added and normalized for each attribute,
+translated into a 0-5 scale attribute score (the higher is the
+better), based on the conversion criteria provided in the "Conversion" column. 
 Finally, the scores from different attributes are aggregated as the weighted average of attribute scores.
 The weights used for each attribute are presented in the column "Weight".
-For requirements specifications, this weighted average corresponds to final score assigned to the deliverable.
-For prompts, these scores are further combined across categories through simple averaging to compute the final score of the artifact.
+
+The third tab corresponds to the "How to Ask" prompt quality attributes. 
+As with requirements, when grading, a set of issues was identified for each of the 28 factors (7 attributes × 4 cross-cutting qualities),
+assessed by severity, and converted into a numeric score on 0 to 5 scale (the higher is the better). These scores were then averaged across categories to produce an overall score for the "How to Ask" (denoted by H).
+The fourth tab reflects the "What to Ask" prompt quality attributes. For this evaluation, chats were checked for the presence of at least one request or question related to each of the six requirements components. The resulting score presents the fraction of requirements components students consulted the ChatGPT about.
