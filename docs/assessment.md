@@ -49,7 +49,7 @@ Both artifacts (requirements specifications and ChatGPT prompts) were assessed u
 
 The file includes four tabs, "Course-defined Req. Components", "Requirements Rubric", “Prompt Rubric - How to Ask (H)” and "Prompt Rubric - What to Ask (W)”. 
 
-The first tab lists six requirements components, i.e., actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
+The first tab lists six requirements specification components defined in the course: actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
 
 The second tab corresponds to requirements quality attributes. 
 Each super-row presents a specific quality attribute,
