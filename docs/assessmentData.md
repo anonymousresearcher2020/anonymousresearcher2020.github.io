@@ -73,7 +73,7 @@ Table below shows the average score for each prompt quality metric in processes 
 | Expected Format       | 1.9         | 0.9        | 3.3  |
 | Personas              | 0.5         | 0.3        | 0.5  |
 | Examples              | 0.2         | 0          | 0.3  |
-| **Total of "How to ask"** | **1.9**  | **1.2**     | **2.45** |
+| **Avg. "How to ask"** | **1.9**  | **1.2**     | **2.4** |
 | **What to ask**          | **4**          | **3.6**        | **3.9** |
 | **Total Quality**     | **30%**      | **17%**     | **38%** |
 
