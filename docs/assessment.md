@@ -5,13 +5,15 @@ nav_order: 4
 has_children: false
 permalink: /docs/assessment
 ---
+The complete rubric we used to assess requirements specifications and ChatGPT prompts is linked below: 
 
-This page provides a detailed outline of our requirements and prompt assessment rubric. All artifacts produced by students in the course, i.e., requirements
-specifications (HA, GA, GB, FA and FB) and ChatGPT prompts (PA and PB) were manually graded by two authors of this paper, who were also in the teaching staff of the course.
-The graders cross-validated their marks and all disagreement (5% for requirements and 6% for prompts) were resolved with a third author, who was the course instructor.
+- ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx).
 
+### Requirements Assessment:
 
-### Requirements Quality Attributes:
+The first tab of the file ("Course-defined Requirements Components") lists six requirements specification components defined in the course: actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
+
+The second tab (“Requirements Rubric”) list the requirements quality attribute, listed in the paper and described below in more detail. 
 
 - **Complete** and cover all parts of the project goals, providing sufficient information to implement the system
     - When something is part of the project descriptions and goals, there should be a use case for it. E.g., “Adding a friend can be done in one click”. What about other parts of the use case / other use cases
@@ -32,35 +34,29 @@ The graders cross-validated their marks and all disagreement (5% for requirement
     - “User should be able to log-in” is a functional rather than security requirement
 - **Well-formatted,** with appropriate notations of use case diagram, success and failure scenarios, etc.
 
----
+For each quality attribute, we list a set of concrete issues, such as missing or incomplete descriptions, logical or factual errors, and more, identified during artifact evaluation.
 
-### Prompts Quality Attributes:
-
-<!-- ![image](../img/promptQuality.jpg) -->
-<img src="../img/promptQuality.jpg" alt="prompts" width="500" height="422">
-
----
-
-### Assessment Methodology
-
-Both artifacts (requirements specifications and ChatGPT prompts) were assessed using a similar methodology. Our complete rubric is linked below: 
-
-- ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx).
-
-The file includes four tabs, "Course-defined Req. Components", "Requirements Rubric", “Prompt Rubric - How to Ask (H)” and "Prompt Rubric - What to Ask (W)”. 
-
-The first tab lists six requirements specification components defined in the course: actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
-
-The second tab corresponds to requirements quality attributes. 
-Each super-row presents a specific quality attribute,
-and each row inside the super-row lists concrete issues, such as missing or incomplete descriptions, logical or factual errors, and more, identified during artifact evaluation.
 Each issue is assigned a severity level from 0 – absent, to 1 – rare, 2 – moderate, 3 – abundant. Severity ranks are then added and normalized for each attribute,
-translated into a 0-5 scale attribute score (the higher is the
+translated into a 0-5 scale attribute score (the higher the
 better), based on the conversion criteria provided in the "Conversion" column. 
 Finally, the scores from different attributes are aggregated as the weighted average of attribute scores.
 The weights used for each attribute are presented in the column "Weight".
 
-The third tab corresponds to the "How to Ask" prompt quality attributes. 
-As with requirements, when grading, a set of issues was identified for each of the 28 factors (7 attributes × 4 cross-cutting qualities),
-assessed by severity, and converted into a numeric score on 0 to 5 scale (the higher is the better). These scores were then averaged across categories to produce an overall score for the "How to Ask" (denoted by H).
-The fourth tab reflects the "What to Ask" prompt quality attributes. For this evaluation, chats were checked for the presence of at least one request or question related to each of the six requirements components. The resulting score presents the fraction of requirements components students consulted the ChatGPT about.
+
+### Prompt Assessment:
+
+Prompt quality attributes are listed in the paper and summarized in the figure below. 
+
+<!-- ![image](../img/promptQuality.jpg) -->
+<img src="../img/promptQuality.jpg" alt="prompts" width="500" height="422">
+
+The third tab of the file above, “Prompt Rubric - How to Ask (H)”, lists concrete issues for each of the 28 quality factors (7 attributes × 4 cross-cutting qualities).
+As with requirements, when grading, each issue was assessed by severity and converted into a numeric score on 0 to 5 scale (the higher the better). These scores were then averaged across categories to produce an overall score for the "How to Ask" (denoted by H).
+
+The fourth tab, "Prompt Rubric - What to Ask (W)”, lists all requirements components (as in the first tab). In our evaluation, ChatGPT conversations were checked for the presence of at least one request or question related to each of the six requirements components. The resulting "What to Ask" score is the fraction of requirements components students consulted the ChatGPT about out of all 6 components (denoted by H).
+
+Then, the final score is calculated as H x W.
+
+The file includes four tabs, "Course-defined Req. Components", "Requirements Rubric", “Prompt Rubric - How to Ask (H)” and "Prompt Rubric - What to Ask (W)”. 
+
+
