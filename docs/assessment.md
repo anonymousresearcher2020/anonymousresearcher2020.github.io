@@ -9,6 +9,8 @@ The complete rubric we used to assess requirements specifications and ChatGPT pr
 
 - ##### [Grading Rubric](data/RequirementsandPromptRubric.xlsx).
 
+---
+
 ### Requirements Assessment:
 
 The first tab of the file ("Course-defined Requirements Components") lists six requirements specification components defined in the course: actors, use cases, use case diagram, success scenarios, failure scenarios, and non-functional requirements. 
@@ -42,6 +44,7 @@ better), based on the conversion criteria provided in the "Conversion" column.
 Finally, the scores from different attributes are aggregated as the weighted average of attribute scores.
 The weights used for each attribute are presented in the column "Weight".
 
+---
 
 ### Prompt Assessment:
 
@@ -56,7 +59,3 @@ As with requirements, when grading, each issue was assessed by severity and conv
 The fourth tab, "Prompt Rubric - What to Ask (W)”, lists all requirements components (as in the first tab). In our evaluation, ChatGPT conversations were checked for the presence of at least one request or question related to each of the six requirements components. The resulting "What to Ask" score is the fraction of requirements components students consulted the ChatGPT about out of all 6 components (denoted by H).
 
 Then, the final score is calculated as H x W.
-
-The file includes four tabs, "Course-defined Req. Components", "Requirements Rubric", “Prompt Rubric - How to Ask (H)” and "Prompt Rubric - What to Ask (W)”. 
-
-
